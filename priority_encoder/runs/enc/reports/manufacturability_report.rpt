@@ -1,0 +1,19 @@
+Design Name: priority_encoder
+Run Directory: /openLANE_flow/designs/priority_encoder/runs/enc
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openLANE_flow/designs/priority_encoder/runs/enc/reports/magic//31-magic.drc
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openLANE_flow/designs/priority_encoder/runs/enc/results/lvs/priority_encoder.lvs_parsed.lef.log
+LVS reports no net, device, pin, or property mismatches.
+Total errors = 0
+----------------------------------------
+
+Antenna Summary:
+Source: /openLANE_flow/designs/priority_encoder/runs/enc/reports/routing//33-antenna.rpt
+Number of pins violated: 0
+Number of nets violated: 0
