@@ -11,5 +11,5 @@ Tools used
   - ngspice
 
 All the results and outputs are in /priority_encoder/runs/enc/results 
-yosys_exploration.png
+
  
