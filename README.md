@@ -10,5 +10,5 @@ Tools used
   - netgen
   - ngspice
 
-All the results and outputs are in priority_encoder/runs/enc/results 
+All the results and outputs are in /priority_encoder/runs/enc/results 
  
