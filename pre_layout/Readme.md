@@ -10,7 +10,7 @@
 - git clone https://github.com/Khalique13/dvsd_pe_1v8.git
 - cd dvsd_pe_1v8/pre_layout
 
-Follow the above steps (# Steps to perform pre layout simulation)
+Follow the above steps to get the results
 
 # Prelayout Layout simulation
 
