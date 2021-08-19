@@ -1,0 +1,1 @@
+lvs {/openLANE_flow/designs/dvsd_pe/runs/run3/results/magic/dvsd_pe.spice dvsd_pe} {/openLANE_flow/designs/dvsd_pe/runs/run3/results/lvs/dvsd_pe.lvs.powered.v dvsd_pe} /home/khalique/openlane/OpenLane/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl /openLANE_flow/designs/dvsd_pe/runs/run3/results/lvs/dvsd_pe.lvs.lef.log -json
