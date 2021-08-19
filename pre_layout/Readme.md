@@ -6,9 +6,9 @@
 
 # To perform simulation in yout system
 
-- Open terminal in your system (preferred Ubuntu OS)
-- git clone https://github.com/Khalique13/dvsd_pe_1v8.git
-- cd pre_layout
+$ Open terminal in your system (preferred Ubuntu OS)
+$ git clone https://github.com/Khalique13/dvsd_pe_1v8.git
+$ cd pre_layout
 
 Follow the above steps (# Steps to perform pre layout simulation)
 
