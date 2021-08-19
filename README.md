@@ -2,23 +2,23 @@
 In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 
 # Contents
-Design Overview
-Verilog behavioral codes 
-Openlane
-- Installation
-- Adding a new design
-- Setting design configuration
-- Synthesis
-- Floorplan
-- Placement
-- Routing
-- Final Layout 
-RTL functional simulation results
-Pre-layout performance
-Instant count
-Post-layout Area
-Post-layout simulations (GLS)
-Steps to reproduce and explore the design
+- Design Overview
+- Verilog behavioral codes 
+- Openlane
+-- Installation
+-- Adding a new design
+-- Setting design configuration
+-- Synthesis
+-- Floorplan
+-- Placement
+-- Routing
+-- Final Layout 
+- RTL functional simulation results
+- Pre-layout performance
+- Instant count
+- Post-layout Area
+- Post-layout simulations (GLS)
+-Steps to reproduce and explore the design
 
 # OpenLane Output
 
