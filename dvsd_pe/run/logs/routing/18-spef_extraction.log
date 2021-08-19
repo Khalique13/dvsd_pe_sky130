@@ -1,0 +1,15 @@
+OpenROAD 1 4d4d7205fd0292dbf3fae55fad9109b3f0bd5786
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Start parsing LEF file...
+Parsing LEF file done.
+Start parsing DEF file...
+Parsing DEF file done.
+
+Parameters Used:
+Edge Capacitance Factor: 1.0
+Wire model: L 
+
+RC Extraction is done
+Start writing SPEF file
+Writing SPEF is done

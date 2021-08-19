@@ -1,0 +1,333 @@
+OpenROAD 1 4d4d7205fd0292dbf3fae55fad9109b3f0bd5786
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/merged_unpadded.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/merged_unpadded.lef at line 68178.
+
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 441 library cells
+[INFO ODB-0226] Finished LEF file:  /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/merged_unpadded.lef
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 59, instance PHY_0 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 59, instance PHY_0 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 59, instance PHY_0 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 59, instance PHY_0 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 63, instance PHY_1 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 63, instance PHY_1 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 63, instance PHY_1 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 63, instance PHY_1 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 67, instance PHY_10 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 67, instance PHY_10 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 67, instance PHY_10 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 67, instance PHY_10 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 71, instance PHY_11 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 71, instance PHY_11 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 71, instance PHY_11 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 71, instance PHY_11 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 75, instance PHY_12 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 75, instance PHY_12 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 75, instance PHY_12 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 75, instance PHY_12 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 79, instance PHY_13 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 79, instance PHY_13 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 79, instance PHY_13 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 79, instance PHY_13 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 83, instance PHY_14 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 83, instance PHY_14 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 83, instance PHY_14 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 83, instance PHY_14 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 87, instance PHY_15 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 87, instance PHY_15 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 87, instance PHY_15 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 87, instance PHY_15 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 91, instance PHY_16 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 91, instance PHY_16 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 91, instance PHY_16 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 91, instance PHY_16 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 95, instance PHY_17 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 95, instance PHY_17 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 95, instance PHY_17 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 95, instance PHY_17 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 99, instance PHY_18 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 99, instance PHY_18 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 99, instance PHY_18 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 99, instance PHY_18 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 103, instance PHY_19 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 103, instance PHY_19 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 103, instance PHY_19 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 103, instance PHY_19 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 107, instance PHY_2 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 107, instance PHY_2 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 107, instance PHY_2 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 107, instance PHY_2 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 111, instance PHY_20 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 111, instance PHY_20 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 111, instance PHY_20 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 111, instance PHY_20 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 115, instance PHY_21 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 115, instance PHY_21 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 115, instance PHY_21 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 115, instance PHY_21 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 119, instance PHY_22 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 119, instance PHY_22 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 119, instance PHY_22 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 119, instance PHY_22 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 123, instance PHY_23 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 123, instance PHY_23 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 123, instance PHY_23 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 123, instance PHY_23 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 127, instance PHY_3 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 127, instance PHY_3 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 127, instance PHY_3 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 127, instance PHY_3 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 131, instance PHY_4 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 131, instance PHY_4 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 131, instance PHY_4 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 131, instance PHY_4 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 135, instance PHY_5 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 135, instance PHY_5 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 135, instance PHY_5 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 135, instance PHY_5 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 139, instance PHY_6 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 139, instance PHY_6 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 139, instance PHY_6 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 139, instance PHY_6 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 143, instance PHY_7 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 143, instance PHY_7 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 143, instance PHY_7 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 143, instance PHY_7 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 147, instance PHY_8 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 147, instance PHY_8 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 147, instance PHY_8 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 147, instance PHY_8 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 151, instance PHY_9 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 151, instance PHY_9 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 151, instance PHY_9 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 151, instance PHY_9 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 169, instance _28_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 169, instance _28_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 169, instance _28_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 169, instance _28_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 175, instance _29_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 175, instance _29_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 175, instance _29_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 175, instance _29_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 181, instance _30_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 181, instance _30_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 181, instance _30_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 181, instance _30_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 187, instance _31_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 187, instance _31_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 187, instance _31_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 187, instance _31_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 193, instance _32_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 193, instance _32_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 193, instance _32_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 193, instance _32_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 199, instance _33_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 199, instance _33_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 199, instance _33_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 199, instance _33_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 208, instance _34_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 208, instance _34_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 208, instance _34_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 208, instance _34_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 216, instance _35_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 216, instance _35_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 216, instance _35_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 216, instance _35_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 225, instance _36_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 225, instance _36_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 225, instance _36_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 225, instance _36_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 233, instance _37_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 233, instance _37_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 233, instance _37_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 233, instance _37_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 239, instance _38_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 239, instance _38_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 239, instance _38_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 239, instance _38_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 246, instance _39_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 246, instance _39_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 246, instance _39_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 246, instance _39_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 254, instance _40_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 254, instance _40_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 254, instance _40_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 254, instance _40_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 262, instance _41_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 262, instance _41_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 262, instance _41_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 262, instance _41_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 268, instance _42_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 268, instance _42_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 268, instance _42_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 268, instance _42_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 277, instance _43_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 277, instance _43_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 277, instance _43_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 277, instance _43_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 284, instance _44_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 284, instance _44_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 284, instance _44_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 284, instance _44_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 290, instance _45_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 290, instance _45_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 290, instance _45_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 290, instance _45_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 300, instance _46_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 300, instance _46_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 300, instance _46_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 300, instance _46_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 309, instance _47_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 309, instance _47_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 309, instance _47_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 309, instance _47_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 317, instance _48_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 317, instance _48_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 317, instance _48_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 317, instance _48_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 325, instance _49_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 325, instance _49_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 325, instance _49_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 325, instance _49_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 332, instance _50_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 332, instance _50_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 332, instance _50_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 332, instance _50_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 341, instance _51_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 341, instance _51_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 341, instance _51_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 341, instance _51_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 351, instance _52_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 351, instance _52_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 351, instance _52_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 351, instance _52_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 357, instance _53_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 357, instance _53_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 357, instance _53_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 357, instance _53_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 365, instance _54_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 365, instance _54_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 365, instance _54_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 365, instance _54_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 375, instance _55_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 375, instance _55_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 375, instance _55_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 375, instance _55_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 384, instance _56_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 384, instance _56_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 384, instance _56_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 384, instance _56_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 393, instance _57_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 393, instance _57_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 393, instance _57_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 393, instance _57_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 399, instance _58_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 399, instance _58_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 399, instance _58_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 399, instance _58_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 406, instance _59_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 406, instance _59_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 406, instance _59_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 406, instance _59_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 413, instance _60_ port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 413, instance _60_ port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 413, instance _60_ port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 413, instance _60_ port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 420, instance input1 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 420, instance input1 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 420, instance input1 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 420, instance input1 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 426, instance input2 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 426, instance input2 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 426, instance input2 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 426, instance input2 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 432, instance input3 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 432, instance input3 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 432, instance input3 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 432, instance input3 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 438, instance input4 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 438, instance input4 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 438, instance input4 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 438, instance input4 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 444, instance input5 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 444, instance input5 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 444, instance input5 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 444, instance input5 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 450, instance input6 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 450, instance input6 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 450, instance input6 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 450, instance input6 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 456, instance input7 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 456, instance input7 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 456, instance input7 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 456, instance input7 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 462, instance input8 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 462, instance input8 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 462, instance input8 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 462, instance input8 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 468, instance input9 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 468, instance input9 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 468, instance input9 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 468, instance input9 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 474, instance output10 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 474, instance output10 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 474, instance output10 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 474, instance output10 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 480, instance output11 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 480, instance output11 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 480, instance output11 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 480, instance output11 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 486, instance output12 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 486, instance output12 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 486, instance output12 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 486, instance output12 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 492, instance output13 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 492, instance output13 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 492, instance output13 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 492, instance output13 port VPWR not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 498, instance output14 port VGND not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 498, instance output14 port VNB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 498, instance output14 port VPB not found.
+[WARNING STA-0201] /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v line 498, instance output14 port VPWR not found.
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__tapvpwrvgnd_1 has no liberty cell.
+create_clock [get_ports $::env(CLOCK_PORT)]  -name $::env(CLOCK_PORT)  -period $::env(CLOCK_PERIOD)
+set input_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+set output_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+puts "\[INFO\]: Setting output delay to: $output_delay_value"
+[INFO]: Setting output delay to: 2.0
+puts "\[INFO\]: Setting input delay to: $input_delay_value"
+[INFO]: Setting input delay to: 2.0
+set_max_fanout $::env(SYNTH_MAX_FANOUT) [current_design]
+set clk_indx [lsearch [all_inputs] [get_port $::env(CLOCK_PORT)]]
+#set rst_indx [lsearch [all_inputs] [get_port resetn]]
+set all_inputs_wo_clk [lreplace [all_inputs] $clk_indx $clk_indx]
+#set all_inputs_wo_clk_rst [lreplace $all_inputs_wo_clk $rst_indx $rst_indx]
+set all_inputs_wo_clk_rst $all_inputs_wo_clk
+# correct resetn
+set_input_delay $input_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] $all_inputs_wo_clk_rst
+#set_input_delay 0.0 -clock [get_clocks $::env(CLOCK_PORT)] {resetn}
+set_output_delay $output_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] [all_outputs]
+# TODO set this as parameter
+set_driving_cell -lib_cell $::env(SYNTH_DRIVING_CELL) -pin $::env(SYNTH_DRIVING_CELL_PIN) [all_inputs]
+set cap_load [expr $::env(SYNTH_CAP_LOAD) / 1000.0]
+puts "\[INFO\]: Setting load to: $cap_load"
+[INFO]: Setting load to: 0.01765
+set_load  $cap_load [all_outputs]
+tns 0.00
+wns 0.00
+timing_report
+No paths found.
+timing_report_end
+min_max_report
+No paths found.
+min_max_report_end
+check_report
+No paths found.
+check_report_end
+check_slew
+check_slew_end

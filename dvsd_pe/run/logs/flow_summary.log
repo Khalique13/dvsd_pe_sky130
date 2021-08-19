@@ -1,0 +1,157 @@
+[INFO]: Current run directory is /openLANE_flow/designs/dvsd_pe/runs/run3
+[INFO]: Preparing LEF Files
+[INFO]: Extracting the number of available metal layers from /home/khalique/openlane/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef
+[INFO]: The number of available metal layers is 6
+[INFO]: The available metal layers are li1 met1 met2 met3 met4 met5
+[INFO]: Merging LEF Files...
+[INFO]: Trimming Liberty...
+[INFO]: Generating Exclude List...
+[INFO]: Storing configs into config.tcl ...
+[INFO]: Preparation complete
+[INFO]: Running Synthesis...
+[INFO]: current step index: 1
+[INFO]: Changing netlist from 0 to /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis.v
+[INFO]: Running Static Timing Analysis...
+[INFO]: current step index: 2
+[INFO]: Synthesis was successful
+[INFO]: Running Floorplanning...
+[INFO]: Running Initial Floorplanning...
+[INFO]: current step index: 3
+[INFO]: Core area width: 23.125
+[INFO]: Core area height: 33.12499999999999
+[WARNING]: Current core area is too small for a power grid
+[WARNING]: !!! THE POWER GRID WILL BE MINIMIZED. !!!
+[INFO]: Final Vertical PDN Offset: 3.8541666666666665
+[INFO]: Final Horizontal PDN Offset: 5.520833333333332
+[INFO]: Final Vertical PDN Pitch: 7.708333333333333
+[INFO]: Final Horizontal PDN Pitch: 11.041666666666664
+[INFO]: Changing layout from 0 to /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/floorplan/3-verilog2def_openroad.def
+[INFO]: Running IO Placement...
+[INFO]: current step index: 4
+[INFO]: Changing layout from /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/floorplan/3-verilog2def_openroad.def to /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/floorplan/4-ioPlacer.def
+[INFO]: Running Tap/Decap Insertion...
+[INFO]: current step index: 5
+[INFO]: Changing layout from /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/floorplan/4-ioPlacer.def to /openLANE_flow/designs/dvsd_pe/runs/run3/results/floorplan/dvsd_pe.floorplan.def
+[INFO]: Power planning the following nets
+[INFO]: Power: VPWR
+[INFO]: Ground: VGND
+[INFO]: Generating PDN...
+[INFO]: current step index: 6
+[INFO]: PDN generation was successful.
+[INFO]: Changing layout from /openLANE_flow/designs/dvsd_pe/runs/run3/results/floorplan/dvsd_pe.floorplan.def to /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/floorplan/6-pdn.def
+[INFO]: Running Placement...
+[INFO]: Running Global Placement...
+[INFO]: current step index: 7
+[INFO]: Global placement was successful
+[INFO]: Changing layout from /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/floorplan/6-pdn.def to /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/placement/7-replace.def
+[INFO]: Running Resizer Design Optimizations...
+[INFO]: Generating Exclude List...
+[INFO]: Creating ::env(DONT_USE_CELLS)...
+[INFO]: Changing layout from /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/placement/7-replace.def to /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/placement/7-resizer.def
+[INFO]: Writing Verilog...
+[INFO]: current step index: 8
+[INFO]: Changing netlist from /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis.v to /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v
+[INFO]: Running Static Timing Analysis...
+[INFO]: current step index: 9
+[INFO]: Running Detailed Placement...
+[INFO]: current step index: 10
+[INFO]: Changing layout from /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/placement/7-resizer.def to /openLANE_flow/designs/dvsd_pe/runs/run3/results/placement/dvsd_pe.placement.def
+[INFO]: Changing layout from /openLANE_flow/designs/dvsd_pe/runs/run3/results/placement/dvsd_pe.placement.def to /openLANE_flow/designs/dvsd_pe/runs/run3/results/placement/dvsd_pe.placement.def
+[INFO]: current step index: 11
+[INFO]: Running Resizer Timing Optimizations...
+[INFO]: Changing layout from /openLANE_flow/designs/dvsd_pe/runs/run3/results/placement/dvsd_pe.placement.def to /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/placement/11-resizer_timing.def
+[INFO]: Writing Verilog...
+[INFO]: current step index: 12
+[INFO]: Changing netlist from /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v to /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v
+[INFO]: Running Static Timing Analysis...
+[INFO]: current step index: 13
+[INFO]: Routing...
+[INFO]: Running Global Routing...
+[INFO]: current step index: 14
+[INFO]: Changing layout from /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/placement/11-resizer_timing.def to /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/routing/14-fastroute.def
+[INFO]: Changing layout from 0 to /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/routing/14-fastroute.guide
+[INFO]: Changing layout from /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/routing/14-fastroute.def to /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/routing/14-fastroute.def
+[INFO]: Changing layout from /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/routing/14-fastroute.guide to /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/routing/14-fastroute.guide
+[INFO]: Current Def is /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/routing/14-fastroute.def
+[INFO]: Current Guide is /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/routing/14-fastroute.guide
+[INFO]: Running Fill Insertion...
+[INFO]: current step index: 15
+[INFO]: Changing layout from /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/routing/14-fastroute.def to /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/routing/15-addspacers.def
+[INFO]: Writing Verilog...
+[INFO]: current step index: 16
+[INFO]: Changing netlist from /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_optimized.v to /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_preroute.v
+[INFO]: Running Detailed Routing...
+[INFO]: current step index: 17
+[INFO]: No DRC violations after detailed routing.
+[INFO]: Changing layout from /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/routing/15-addspacers.def to /openLANE_flow/designs/dvsd_pe/runs/run3/results/routing/16-dvsd_pe.def
+[INFO]: Running SPEF Extraction...
+[INFO]: current step index: 18
+[INFO]: Running Static Timing Analysis...
+[INFO]: current step index: 19
+[INFO]: Calculating Runtime From the Start...
+[INFO]: Routing completed for dvsd_pe/19-08_11-52 in 0h2m39s
+[INFO]: Writing Powered Verilog...
+[INFO]: current step index: 20
+[INFO]: Writing Verilog...
+[INFO]: current step index: 21
+[INFO]: Yosys won't attempt to rewrite verilog, and the OpenROAD output will be used as is.
+[INFO]: Changing netlist from /openLANE_flow/designs/dvsd_pe/runs/run3/results/synthesis/dvsd_pe.synthesis_preroute.v to /openLANE_flow/designs/dvsd_pe/runs/run3/results/lvs/dvsd_pe.lvs.powered.v
+[INFO]: Running Magic to generate various views...
+[INFO]: Streaming out GDS II...
+[INFO]: current step index: 22
+[INFO]: current step index: 23
+[INFO]: current step index: 24
+[INFO]: current step index: 25
+[INFO]: Running Klayout to re-generate GDS-II...
+[INFO]: Streaming out GDS II...
+[INFO]: current step index: 26
+[INFO]: Back-up GDS-II streamed out.
+[INFO]: Running XOR on the layouts using Klayout...
+[INFO]: current step index: 27
+[INFO]: current step index: 28
+[INFO]: Klayout XOR Complete
+[INFO]: Running Magic Spice Export from LEF...
+[INFO]: current step index: 29
+[INFO]: No Illegal overlaps detected during extraction.
+[INFO]: Running LEF LVS...
+[INFO]: /openLANE_flow/designs/dvsd_pe/runs/run3/results/magic/dvsd_pe.spice against /openLANE_flow/designs/dvsd_pe/runs/run3/results/lvs/dvsd_pe.lvs.powered.v
+[INFO]: current step index: 30
+[INFO]: No LVS mismatches.
+[INFO]: Running Magic DRC...
+[INFO]: current step index: 31
+[INFO]: Converting Magic DRC Violations to Magic Readable Format...
+[INFO]: Converting Magic DRC Violations to Klayout XML Database...
+[INFO]: Converting DRC Violations to RDB Format...
+[INFO]: Converted DRC Violations to RDB Format
+[INFO]: No DRC violations after GDS streaming out.
+[INFO]: Running Antenna Checks...
+[INFO]: Running OpenROAD Antenna Rule Checker...
+[INFO]: current step index: 32
+[INFO]: current step index: 33
+[INFO]: Running CVC
+[INFO]: current step index: 34
+[INFO]: Calculating Runtime From the Start...
+[INFO]: Flow completed for dvsd_pe/19-08_11-52 in 0h4m6s
+[INFO]: Generating Final Summary Report...
+[INFO]: Design Name: dvsd_pe
+Run Directory: /openLANE_flow/designs/dvsd_pe/runs/run3
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openLANE_flow/designs/dvsd_pe/runs/run3/reports/magic//31-magic.drc
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openLANE_flow/designs/dvsd_pe/runs/run3/results/lvs/dvsd_pe.lvs_parsed.lef.log
+LVS reports no net, device, pin, or property mismatches.
+Total errors = 0
+----------------------------------------
+
+Antenna Summary:
+Source: /openLANE_flow/designs/dvsd_pe/runs/run3/reports/routing//33-antenna.rpt
+Number of pins violated: 0
+Number of nets violated: 0
+[INFO]: check full report here: /openLANE_flow/designs/dvsd_pe/runs/run3/reports/final_summary_report.csv
+[INFO]: Saving Runtime Environment
+[SUCCESS]: Flow Completed Without Fatal Errors.

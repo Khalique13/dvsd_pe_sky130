@@ -1,0 +1,58 @@
+OpenROAD 1 4d4d7205fd0292dbf3fae55fad9109b3f0bd5786
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/merged_unpadded.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/merged_unpadded.lef at line 68178.
+
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 441 library cells
+[INFO ODB-0226] Finished LEF file:  /openLANE_flow/designs/dvsd_pe/runs/run3/tmp/merged_unpadded.lef
+[INFO ODB-0127] Reading DEF file: /openLANE_flow/designs/dvsd_pe/runs/run3/results/floorplan/dvsd_pe.floorplan.def
+[INFO ODB-0128] Design: dvsd_pe
+[INFO ODB-0130]     Created 14 pins.
+[INFO ODB-0131]     Created 64 components and 361 component-terminals.
+[INFO ODB-0133]     Created 42 nets and 119 connections.
+[INFO ODB-0134] Finished DEF file: /openLANE_flow/designs/dvsd_pe/runs/run3/results/floorplan/dvsd_pe.floorplan.def
+[INFO PDN-0016] Power Delivery Network Generator: Generating PDN
+  config: /home/khalique/openlane/OpenLane/pdks/sky130A/libs.tech/openlane/common_pdn.tcl
+[INFO PDN-0008] Design Name is dvsd_pe
+[INFO PDN-0009] Reading technology data
+[INFO PDN-0011] ****** INFO ******
+Type: stdcell, grid
+    Stdcell Rails
+      Layer: met1  -  width: 0.480  pitch: 2.720  offset: 0.000 
+    Straps
+      Layer: met4  -  width: 1.600  pitch: 7.708  offset: 3.854 
+      Layer: met5  -  width: 1.600  pitch: 11.042  offset: 5.521 
+    Connect: {met4 met5} {met1 met4}
+Type: macro, macro_1
+    Macro orientation: R0 R180 MX MY R90 R270 MXR90 MYR90
+    Straps
+    Connect: {met4_PIN_ver met5}
+[INFO PDN-0012] **** END INFO ****
+[INFO PDN-0013] Inserting stdcell grid - grid
+[INFO PDN-0015] Writing to database
+[WARNING PSM-0016] Voltage pad location (vsrc) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0019] Voltage on net VPWR is not explicitly set.
+[WARNING PSM-0022] Using voltage 1.800V for VDD network.
+[WARNING PSM-0063] Specified bump pitches of 140.000 and 140.000 are less than core width of 23.000 or core height of 32.640. Changing bump location to the center of the die at (11.500, 16.320)
+[WARNING PSM-0065] VSRC location not specified using default checkerboard pattern with one VDD everysize bumps in x-direction and one in two bumps in the y-direction
+[INFO PSM-0031] Number of PDN nodes on net VPWR = 240.
+[INFO PSM-0064] Number of voltage sources = 1
+[INFO PSM-0040] All PDN stripes on net VPWR are connected.
+[WARNING PSM-0016] Voltage pad location (vsrc) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0019] Voltage on net VGND is not explicitly set.
+[WARNING PSM-0021] Using voltage 0.000V for ground network.
+[WARNING PSM-0063] Specified bump pitches of 140.000 and 140.000 are less than core width of 23.000 or core height of 32.640. Changing bump location to the center of the die at (11.500, 16.320)
+[WARNING PSM-0065] VSRC location not specified using default checkerboard pattern with one VDD everysize bumps in x-direction and one in two bumps in the y-direction
+[WARNING PSM-0030] Vsrc location at (11.500um, 16.320um) and size =10.000um, is not located on a power stripe. Moving to closest stripe at (10.800um, 21.682um).
+[INFO PSM-0031] Number of PDN nodes on net VGND = 183.
+[INFO PSM-0064] Number of voltage sources = 1
+[INFO PSM-0040] All PDN stripes on net VGND are connected.
