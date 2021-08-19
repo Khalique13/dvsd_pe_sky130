@@ -25,45 +25,6 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 All output run data is placed under ./designs/dvsd_pe/runs. Below is the flow structure that contains all the files including report, results, logs and tmp:
 designs/dvsd_pe
 
-├── config.tcl
-├── runs
-│   ├── run
-│   │   ├── config.tcl
-│   │   ├── logs
-│   │   │   ├── cts
-│   │   │   ├── cvc
-│   │   │   ├── floorplan
-│   │   │   ├── klayout
-│   │   │   ├── magic
-│   │   │   ├── placement
-│   │   │   ├── routing
-│   │   │   └── synthesis
-│   │   ├── reports
-│   │   │   ├── cts
-│   │   │   ├── cvc
-│   │   │   ├── floorplan
-│   │   │   ├── klayout
-│   │   │   ├── magic
-│   │   │   ├── placement
-│   │   │   ├── routing
-│   │   │   └── synthesis
-│   │   ├── results
-│   │   │   ├── cts
-│   │   │   ├── cvc
-│   │   │   ├── floorplan
-│   │   │   ├── klayout
-│   │   │   ├── magic
-│   │   │   ├── placement
-│   │   │   ├── routing
-│   │   │   └── synthesis
-│   │   └── tmp
-│   │       ├── cts
-│   │       ├── cvc
-│   │       ├── floorplan
-│   │       ├── klayout
-│   │       ├── magic
-│   │       ├── placement
-│   │       ├── routing
-│   │       └── synthesis
+
 
 
