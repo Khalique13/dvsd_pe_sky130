@@ -24,6 +24,7 @@ Steps to reproduce and explore the design
 
 All output run data is placed under ./designs/dvsd_pe/runs. Below is the flow structure that contains all the files including report, results, logs and tmp:
 designs/dvsd_pe
+
 ├── config.tcl
 ├── runs
 │   ├── run
