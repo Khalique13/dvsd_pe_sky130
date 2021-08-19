@@ -19,5 +19,6 @@ Follow the above steps to get the results
   ![pre_layout_sim_ter](https://user-images.githubusercontent.com/80625515/130051278-4923d434-75f6-44ed-88dd-3a2864a3b84b.png)
 
   GTKWave output waveform
+  
+  ![pre_layout_sim](https://user-images.githubusercontent.com/80625515/130084221-8654af3a-aaf5-417f-b290-c65f87536778.png)
 
-  ![prelayoutsimulation](https://user-images.githubusercontent.com/80625515/130048726-e4050b69-6da6-4db9-9a54-79365e89e842.png)
