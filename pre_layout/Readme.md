@@ -1,8 +1,8 @@
 # Steps to perform pre layout simulation
 
-= > iverilog -o dvsd_pe dvsd_pe.v test_dvsd_pe.v
-= > ./dvsd_pe
-= > gtkwave dvsd_pe.vcd
+  iverilog -o dvsd_pe dvsd_pe.v test_dvsd_pe.v
+  ./dvsd_pe
+  gtkwave dvsd_pe.vcd
 
 # To perform simulation in yout system
 
