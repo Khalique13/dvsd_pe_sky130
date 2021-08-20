@@ -337,7 +337,7 @@ up-via summary (total 297):
 
 ```
 
-#### - Final Summary 
+#### Final Summary 
 
 ```
 
@@ -373,6 +373,25 @@ Number of nets violated: 0
 
 ### Final Layout
 
+- Layout after floorplanning and placement in Magic
+
+![placement](https://user-images.githubusercontent.com/80625515/130256581-da51bc37-2bde-4ffd-ad94-7078bfc02cab.png)
+
+- Final GDS layout
+
+![magic](https://user-images.githubusercontent.com/80625515/130256888-28aaf65e-121c-4939-8cdb-43f96f7c7625.png)
+
+- Closeup view of the final layout design
+
+![layoutwoplace](https://user-images.githubusercontent.com/80625515/130257192-88ad706d-0c44-4f5b-98c9-8a61a2c0f651.png)
+
+- lef layout
+
+![lef](https://user-images.githubusercontent.com/80625515/130257557-f2197c3f-4608-490e-adad-3b4878f7251c.png)
+
+- tkcon window
+
+![tkon](https://user-images.githubusercontent.com/80625515/130257765-e0b54334-3b84-4e30-ba94-704a7935440e.png)
 
 
 ## Post-layout
