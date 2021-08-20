@@ -39,6 +39,9 @@
 OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault and custom methodology scripts for design exploration and optimization.
 For more information check [here](https://openlane.readthedocs.io/)
 
+![openlane flow 1](https://user-images.githubusercontent.com/80625515/130246106-18f73ccc-e8e1-4061-a1b0-8c14bdf711f1.png)
+
+
 ### Installation
 
 #### Prerequisites
@@ -197,12 +200,12 @@ gtkwave dvsd_pe.vcd
 
 ```
 ---------------------------------
-total displacement          0.0 u
-average displacement        0.0 u
-max displacement            0.0 u
-original HPWL             804.4 u
+total displacement        274.2 u
+average displacement        3.5 u
+max displacement           33.8 u
+original HPWL             639.8 u
 legalized HPWL            838.1 u
-delta HPWL                    4 %
+delta HPWL                   31 %
 
 ```
 
