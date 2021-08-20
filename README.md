@@ -29,6 +29,7 @@
 
 ![Slide2](https://user-images.githubusercontent.com/80625515/130179293-b7b03b4c-2feb-40a6-814a-31af06acc3cd.PNG)
 
+
 ### IP specs provided
 
 ![Slide4](https://user-images.githubusercontent.com/80625515/130180121-a4e5d529-bb6d-4ed3-a265-aad5030f82f7.PNG)
@@ -99,6 +100,7 @@ flow.tcl -design dvsd_pe -synth_explore
 
 ![synth_explore](https://user-images.githubusercontent.com/80625515/130225635-8bee797c-dcf3-445f-9b02-b197dd2c3b39.png)
 
+Synthesis reports
 
 ```
 
@@ -121,7 +123,6 @@ flow.tcl -design dvsd_pe -synth_explore
      $_NOR_                          4
      $_ORNOT_                        9
      $_OR_                          25
-
 
 ```
 
@@ -157,7 +158,6 @@ flow.tcl -design dvsd_pe -synth_explore
      sky130_fd_sc_hd__or4b_2         2
 
    Chip area for module '\dvsd_pe': 276.515200
-
 
 ```
 
@@ -341,32 +341,27 @@ up-via summary (total 297):
 
 ```
 
-[INFO]: Calculating Runtime From the Start...
-[INFO]: Flow completed for dvsd_pe/20-08_11-32 in 0h3m43s
-[INFO]: Generating Final Summary Report...
-[INFO]: Design Name: dvsd_pe
-Run Directory: /openLANE_flow/designs/dvsd_pe/runs/20-08_11-32
+Run Directory: /openLANE_flow/designs/dvsd_pe/runs/run
 ----------------------------------------
 
 Magic DRC Summary:
-Source: /openLANE_flow/designs/dvsd_pe/runs/20-08_11-32/reports/magic//31-magic.drc
+Source: /openLANE_flow/designs/dvsd_pe/runs/run3/reports/magic//31-magic.drc
 Total Magic DRC violations is 0
 ----------------------------------------
 
 LVS Summary:
-Source: /openLANE_flow/designs/dvsd_pe/runs/20-08_11-32/results/lvs/dvsd_pe.lvs_parsed.lef.log
+Source: /openLANE_flow/designs/dvsd_pe/runs/run3/results/lvs/dvsd_pe.lvs_parsed.lef.log
 LVS reports no net, device, pin, or property mismatches.
 Total errors = 0
 ----------------------------------------
 
 Antenna Summary:
-Source: /openLANE_flow/designs/dvsd_pe/runs/20-08_11-32/reports/routing//33-antenna.rpt
+Source: /openLANE_flow/designs/dvsd_pe/runs/run3/reports/routing//33-antenna.rpt
 Number of pins violated: 0
 Number of nets violated: 0
-[INFO]: check full report here: /openLANE_flow/designs/dvsd_pe/runs/20-08_11-32/reports/final_summary_report.csv
+[INFO]: check full report here: /openLANE_flow/designs/dvsd_pe/runs/run3/reports/final_summary_report.csv
 [INFO]: Saving Runtime Environment
 [SUCCESS]: Flow Completed Without Fatal Errors.
-
 
 ```
 
@@ -419,6 +414,8 @@ gtkwave gls.vcd
 ```
 
 ## Steps to reproduce and explore the design
+
+
 
 ## Keys to remember
 
