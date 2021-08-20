@@ -27,11 +27,11 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 - [Acknowledgement](#acknowledgement)
 
 
-## Design Overview
+### Design Overview
 
-![Slide2](https://user-images.githubusercontent.com/80625515/130178718-6287da54-30a0-424d-9d31-e678ba448d59.JPG)
+![Slide2](https://user-images.githubusercontent.com/80625515/130179293-b7b03b4c-2feb-40a6-814a-31af06acc3cd.PNG)
 
-## Verilog behavioral design
+### Verilog behavioral design
 
 ## Openlane 
 
