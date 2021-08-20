@@ -15,6 +15,7 @@
 - [Floorplanning](#floorplanning)
 - [Placement](#placement)
 - [Routing](#routing)
+- [Layout vs Schematic](#layout-vs-schematic)
 - [Final Layout](#final-layout)
 - [Post-layout](#post-layout)
 	- [Simulation](#simulation)
@@ -361,6 +362,73 @@ Number of nets violated: 0
 [INFO]: check full report here: /openLANE_flow/designs/dvsd_pe/runs/run3/reports/final_summary_report.csv
 [INFO]: Saving Runtime Environment
 [SUCCESS]: Flow Completed Without Fatal Errors.
+
+```
+
+### Layout vs Schematic
+
+- Subcircuit summary
+
+```
+Circuit 1: dvsd_pe                         |Circuit 2: dvsd_pe                         
+-------------------------------------------|-------------------------------------------
+sky130_fd_sc_hd__fill_2 (1)                |sky130_fd_sc_hd__fill_2 (1)                
+sky130_fd_sc_hd__nand2_1 (1)               |sky130_fd_sc_hd__nand2_1 (1)               
+sky130_fd_sc_hd__decap_4 (1)               |sky130_fd_sc_hd__decap_4 (1)               
+sky130_fd_sc_hd__o21ai_1 (1)               |sky130_fd_sc_hd__o21ai_1 (1)               
+sky130_fd_sc_hd__clkbuf_2 (5)              |sky130_fd_sc_hd__clkbuf_2 (5)              
+sky130_fd_sc_hd__fill_1 (1)                |sky130_fd_sc_hd__fill_1 (1)                
+sky130_fd_sc_hd__a21oi_1 (2)               |sky130_fd_sc_hd__a21oi_1 (2)               
+sky130_fd_sc_hd__decap_8 (1)               |sky130_fd_sc_hd__decap_8 (1)               
+sky130_fd_sc_hd__or4_1 (1)                 |sky130_fd_sc_hd__or4_1 (1)                 
+sky130_fd_sc_hd__buf_1 (8)                 |sky130_fd_sc_hd__buf_1 (8)                 
+sky130_fd_sc_hd__decap_6 (1)               |sky130_fd_sc_hd__decap_6 (1)               
+sky130_fd_sc_hd__a2111o_1 (1)              |sky130_fd_sc_hd__a2111o_1 (1)              
+sky130_fd_sc_hd__decap_3 (1)               |sky130_fd_sc_hd__decap_3 (1)               
+sky130_fd_sc_hd__inv_2 (6)                 |sky130_fd_sc_hd__inv_2 (6)                 
+sky130_fd_sc_hd__dlxtn_1 (3)               |sky130_fd_sc_hd__dlxtn_1 (3)               
+sky130_fd_sc_hd__or2_1 (2)                 |sky130_fd_sc_hd__or2_1 (2)                 
+sky130_fd_sc_hd__o2bb2a_1 (1)              |sky130_fd_sc_hd__o2bb2a_1 (1)              
+sky130_fd_sc_hd__clkbuf_1 (4)              |sky130_fd_sc_hd__clkbuf_1 (4)              
+sky130_fd_sc_hd__dlymetal6s2s_1 (1)        |sky130_fd_sc_hd__dlymetal6s2s_1 (1)        
+sky130_fd_sc_hd__tapvpwrvgnd_1 (1)         |sky130_fd_sc_hd__tapvpwrvgnd_1 (1)         
+sky130_fd_sc_hd__o22ai_1 (2)               |sky130_fd_sc_hd__o22ai_1 (2)               
+sky130_fd_sc_hd__or3_1 (3)                 |sky130_fd_sc_hd__or3_1 (3)                 
+sky130_fd_sc_hd__o41a_1 (2)                |sky130_fd_sc_hd__o41a_1 (2)                
+sky130_fd_sc_hd__or3b_1 (1)                |sky130_fd_sc_hd__or3b_1 (1)                
+sky130_fd_sc_hd__a2bb2o_1 (1)              |sky130_fd_sc_hd__a2bb2o_1 (1)              
+sky130_fd_sc_hd__o22a_1 (1)                |sky130_fd_sc_hd__o22a_1 (1)                
+sky130_fd_sc_hd__or4b_1 (1)                |sky130_fd_sc_hd__or4b_1 (1)                
+Number of devices: 54                      |Number of devices: 54                      
+Number of nets: 58                         |Number of nets: 58                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+```
+
+- Subcircuits pins
+
+```
+
+Circuit 1: dvsd_pe                         |Circuit 2: dvsd_pe                         
+-------------------------------------------|-------------------------------------------
+in[0]                                      |in[0]                                      
+in[1]                                      |in[1]                                      
+in[2]                                      |in[2]                                      
+in[5]                                      |in[5]                                      
+in[4]                                      |in[4]                                      
+in[3]                                      |in[3]                                      
+en                                         |en                                         
+in[6]                                      |in[6]                                      
+in[7]                                      |in[7]                                      
+eno                                        |eno                                        
+out[2]                                     |out[2]                                     
+out[0]                                     |out[0]                                     
+out[1]                                     |out[1]                                     
+gs                                         |gs                                         
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
 
 ```
 
