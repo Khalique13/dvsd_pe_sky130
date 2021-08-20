@@ -81,49 +81,7 @@ For more information check [here](https://openlane.readthedocs.io/)
 	- Netgen - Performs LVS Checks
 	- CVC - Performs Circuit Validity Checks
 
-```
-designs/<dvsd_pe>
-├── config.tcl
-├── runs
-│   ├── <tag>
-│   │   ├── config.tcl
-│   │   ├── logs
-│   │   │   ├── cts
-│   │   │   ├── cvc
-│   │   │   ├── floorplan
-│   │   │   ├── klayout
-│   │   │   ├── magic
-│   │   │   ├── placement
-│   │   │   ├── routing
-│   │   │   └── synthesis
-│   │   ├── reports
-│   │   │   ├── cts
-│   │   │   ├── cvc
-│   │   │   ├── floorplan
-│   │   │   ├── klayout
-│   │   │   ├── magic
-│   │   │   ├── placement
-│   │   │   ├── routing
-│   │   │   └── synthesis
-│   │   ├── results
-│   │   │   ├── cts
-│   │   │   ├── cvc
-│   │   │   ├── floorplan
-│   │   │   ├── klayout
-│   │   │   ├── magic
-│   │   │   ├── placement
-│   │   │   ├── routing
-│   │   │   └── synthesis
-│   │   └── tmp
-│   │       ├── cts
-│   │       ├── cvc
-│   │       ├── floorplan
-│   │       ├── klayout
-│   │       ├── magic
-│   │       ├── placement
-│   │       ├── routing
-│   │       └── synthesis
-```
+
 
 ### Installation
 
@@ -341,7 +299,6 @@ met5                42             0            0.00%             0 /  0 /  0
 Total             1651            61            3.69%             0 /  0 /  0
 
 ```
-Check [here](#436) to explore the design
 
 ![placement_final](https://user-images.githubusercontent.com/80625515/130279072-c7e1e1dd-6061-46e0-a9d5-85c7470c8ebc.png)
 
@@ -593,6 +550,52 @@ cd post_layout/
 iverilog -o gls gls.v primitives.v sky130_fd_sc_hd.v
 ./gls
 gtkwave gls.vcd
+```
+
+- Complete details, logs and results can be found under this [folder](https://github.com/Khalique13/dvsd-8-bit-priority-encoder/tree/main/dvsd_pe). 
+
+```
+dvsd_pe
+├── config.tcl
+├── runs
+│   ├── run
+│   │   ├── config.tcl
+│   │   ├── logs
+│   │   │   ├── cts
+│   │   │   ├── cvc
+│   │   │   ├── floorplan
+│   │   │   ├── klayout
+│   │   │   ├── magic
+│   │   │   ├── placement
+│   │   │   ├── routing
+│   │   │   └── synthesis
+│   │   ├── reports
+│   │   │   ├── cts
+│   │   │   ├── cvc
+│   │   │   ├── floorplan
+│   │   │   ├── klayout
+│   │   │   ├── magic
+│   │   │   ├── placement
+│   │   │   ├── routing
+│   │   │   └── synthesis
+│   │   ├── results
+│   │   │   ├── cts
+│   │   │   ├── cvc
+│   │   │   ├── floorplan
+│   │   │   ├── klayout
+│   │   │   ├── magic
+│   │   │   ├── placement
+│   │   │   ├── routing
+│   │   │   └── synthesis
+│   │   └── tmp
+│   │       ├── cts
+│   │       ├── cvc
+│   │       ├── floorplan
+│   │       ├── klayout
+│   │       ├── magic
+│   │       ├── placement
+│   │       ├── routing
+│   │       └── synthesis
 ```
 
 ## Key points to Remember
