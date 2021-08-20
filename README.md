@@ -62,10 +62,12 @@ For detailed installation process, check [here](https://github.com/The-OpenROAD-
 	- Default IMAGE_NAME is efabless/openlane:current. If you want to use a different version, run the following before `make mount`:
 
 The following is roughly what happens under the hood when you run `make mount` + the required exports:
-	```
-	export PDK_ROOT=<absolute path to where skywater-pdk and open_pdks will reside>
-	export IMAGE_NAME=<docker image name>
-	docker run -it -v $(pwd):/openLANE_flow -v $PDK_ROOT:$PDK_ROOT -e PDK_ROOT=$PDK_ROOT -u $(id -u $USER):$(id -g $USER) $IMAGE_NAME ```
+
+```
+export PDK_ROOT=<absolute path to where skywater-pdk and open_pdks will reside>
+export IMAGE_NAME=<docker image name>
+docker run -it -v $(pwd):/openLANE_flow -v $PDK_ROOT:$PDK_ROOT -e PDK_ROOT=$PDK_ROOT -u $(id -u $USER):$(id -g $USER) $IMAGE_NAME
+```
 
 You can use the following example to check the overall setup:
 
