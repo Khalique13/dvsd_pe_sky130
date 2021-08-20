@@ -7,8 +7,7 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 - [Verilog behavioral design](#verilog-behavioral-design)
 - [Openlane](#openlane)
 	- [Installation](#installation)
-	- [Adding a new design](#adding-new-design)
-	- [Setting design configuration](#setting-design-configuration)
+	- [Running OpenLane](#running-openlane)
 	- [Synthesis](#synthesis)
 	- [Floorplan](#floorplan)
 	- [Placement](#placement)
@@ -41,7 +40,7 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 ## OpenLane 
 
 OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault and custom methodology scripts for design exploration and optimization.
-For more information visit [here](https://openlane.readthedocs.io/)
+For more information check [here](https://openlane.readthedocs.io/)
 
 ### Installation
 
@@ -55,9 +54,24 @@ make test # This a ~5 minute test that verifies that the flow and the pdk were p
 
 For detailed installation process, check [here](https://github.com/The-OpenROAD-Project/OpenLane)
 
-### Adding new design
+### Running OpenLane
 
-### Setting design configuration
+`make mount`
+- Note
+	- Default PDK_ROOT is $(pwd)/pdks. If you have installed the PDK at a different location, run the following before `make mount`:
+	- Default IMAGE_NAME is efabless/openlane:current. If you want to use a different version, run the following before `make mount`:
+
+The following is roughly what happens under the hood when you run `make mount` + the required exports:
+	```
+	export PDK_ROOT=<absolute path to where skywater-pdk and open_pdks will reside>
+	export IMAGE_NAME=<docker image name>
+	docker run -it -v $(pwd):/openLANE_flow -v $PDK_ROOT:$PDK_ROOT -e PDK_ROOT=$PDK_ROOT -u $(id -u $USER):$(id -g $USER) $IMAGE_NAME ```
+
+You can use the following example to check the overall setup:
+
+`./flow.tcl -design spm`
+
+
 
 ### Synthesis
 
