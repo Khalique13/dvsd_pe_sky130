@@ -44,6 +44,14 @@ For more information check [here](https://openlane.readthedocs.io/)
 
 ### Installation
 
+#### Prerequisites
+At a minimum:
+
+-Docker 19.03.12+
+-GNU Make
+-Python 3.6+ with PIP
+-Click, Pyyaml: `pip3 install pyyaml click`
+
 ```
 git clone https://github.com/The-OpenROAD-Project/OpenLane.git
 cd OpenLane/
