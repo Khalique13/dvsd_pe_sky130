@@ -1,5 +1,5 @@
 # 8 bit Priority Encoder (dvsd_pe) RTL to GDS flow 
-The purpose of this project is to produce clean GDS (Graphic Design System) Final Layout with all details that is used to print photomasks used in fabrication of a behavioral RTL (Register-Transfer Level) of an 8 bit Priorty Encoder.
+*The purpose of this project is to produce clean GDS (Graphic Design System) Final Layout with all details that is used to print photomasks used in fabrication of a behavioral RTL (Register-Transfer Level) of an 8 bit Priorty Encoder.*
 
 # Table of Contents
 - [Design Overview](#design-overview)
