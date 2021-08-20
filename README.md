@@ -9,8 +9,7 @@
 	- [Installation](#installation)
 	- [Running OpenLane](#running-openlane)
 	- [Synthesis](#synthesis)
-	- [Floorplan](#floorplan)
-	- [Placement](#placement)
+	- [Floorplanning, Placement and Routing ](#floorplanning,-placement-and-routing)
 	- [Routing](#routing)
 	- [Final Layout](#final-layout)
 - [Pre-layout](#pre-layout)
@@ -166,16 +165,9 @@ flow.tcl -design dvsd_pe -synth_explore
 ![synthesis](https://user-images.githubusercontent.com/80625515/130226013-809dac5c-563e-46e7-85b4-c83feb46587c.png)
 
 
-### Floorplan
+### Floorplanning, Placement and Routing
 
 ``` 
-OpenROAD 1 4d4d7205fd0292dbf3fae55fad9109b3f0bd5786
-This program is licensed under the BSD-3 license. See the LICENSE file for details.
-Components of this program may be licensed under more restrictive licenses which must be honored.
-[INFO ODB-0222] Reading LEF file: /openLANE_flow/designs/dvsd_pe/runs/20-08_11-32/tmp/merged_unpadded.lef
-[WARNING ODB-0220] WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
-The LEF parser will ignore this statement.
-To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/dvsd_pe/runs/20-08_11-32/tmp/merged_unpadded.lef at line 68178.
 
 [INFO ODB-0223]     Created 13 technology layers
 [INFO ODB-0224]     Created 25 technology vias
@@ -230,9 +222,39 @@ Type: macro, macro_1
 
 ```
 
-### Placement
+- Final Summary 
 
-### Routing
+```
+
+[INFO]: Calculating Runtime From the Start...
+[INFO]: Flow completed for dvsd_pe/20-08_11-32 in 0h3m43s
+[INFO]: Generating Final Summary Report...
+[INFO]: Design Name: dvsd_pe
+Run Directory: /openLANE_flow/designs/dvsd_pe/runs/20-08_11-32
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openLANE_flow/designs/dvsd_pe/runs/20-08_11-32/reports/magic//31-magic.drc
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openLANE_flow/designs/dvsd_pe/runs/20-08_11-32/results/lvs/dvsd_pe.lvs_parsed.lef.log
+LVS reports no net, device, pin, or property mismatches.
+Total errors = 0
+----------------------------------------
+
+Antenna Summary:
+Source: /openLANE_flow/designs/dvsd_pe/runs/20-08_11-32/reports/routing//33-antenna.rpt
+Number of pins violated: 0
+Number of nets violated: 0
+[INFO]: check full report here: /openLANE_flow/designs/dvsd_pe/runs/20-08_11-32/reports/final_summary_report.csv
+[INFO]: Saving Runtime Environment
+[SUCCESS]: Flow Completed Without Fatal Errors.
+
+
+```
+
 
 ### Final Layout
 
@@ -263,8 +285,6 @@ gtkwave dvsd_pe.vcd
 ### Performance
 
 ## Post-layout
-
-### Synthesis
 
 
 
