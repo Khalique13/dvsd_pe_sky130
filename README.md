@@ -52,8 +52,8 @@ For more information check [here](https://openlane.readthedocs.io/)
 ### Installation
 
 #### Prerequisites
-At a minimum:
 
+- Preferred Ubuntu OS)
 - Docker 19.03.12+
 - GNU Make
 - Python 3.6+ with PIP
@@ -188,8 +188,6 @@ Synthesis reports
 
 ### Steps to reproduce Pre-layout simulation
 
- Open terminal in your system (preferred Ubuntu OS)
-
 ```
 git clone https://github.com/Khalique13/dvsd_pe_1v8.git
 cd dvsd_pe_1v8/pre_layout/
@@ -200,6 +198,7 @@ gtkwave dvsd_pe.vcd
 
 
 ### Floorplanning 
+
 
 ```
 
@@ -229,6 +228,17 @@ if { [file exists $filename] == 1} {
 }
 
 ```
+
+- Steps to explore floorplan
+
+```
+cd floorplan
+magic -T sky130A.tech lef read merged.lef def read dvsd_pe.floorplan.def &
+
+```
+
+![floorplan_final](https://user-images.githubusercontent.com/80625515/130277419-7752eb72-0f37-482a-9ad6-5013479649a4.png)
+
 
 ### Placement
 
@@ -277,6 +287,16 @@ met5                42             0            0.00%             0 /  0 /  0
 Total             1651            61            3.69%             0 /  0 /  0
 
 ```
+- Steps to explore placement
+
+```
+cd placement 
+magic -T sky130A.tech lef read merged.lef def read dvsd_pe.placement.def &
+
+```
+
+![placement_final](https://user-images.githubusercontent.com/80625515/130277765-bc5c3011-9cf5-48a4-97c0-27c31d187b00.png)
+
 
 ### Routing
 
@@ -407,8 +427,6 @@ GTKWave output waveform
 *`To be uploaded soon some bugs`*
 
 ### Steps to reproduce Post-layout simulation
-
- Open terminal in your system (preferred Ubuntu OS)
 
 ```
 git clone https://github.com/Khalique13/dvsd_pe_1v8.git
