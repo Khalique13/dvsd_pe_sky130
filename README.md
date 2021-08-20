@@ -38,9 +38,22 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 
 ### Verilog behavioral design
 
-## Openlane 
+## OpenLane 
+
+OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault and custom methodology scripts for design exploration and optimization.
+For more information visit [here](https://openlane.readthedocs.io/)
 
 ### Installation
+
+```
+git clone https://github.com/The-OpenROAD-Project/OpenLane.git
+cd OpenLane/
+make openlane
+make pdk
+make test # This a ~5 minute test that verifies that the flow and the pdk were properly installed
+```
+
+For detailed installation process, check [here](https://github.com/The-OpenROAD-Project/OpenLane)
 
 ### Adding new design
 
