@@ -6,19 +6,19 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 - [Verilog behavioral design](#verilog-behavioral-design)
 - [Openlane](#openlane)
 	- [Installation](#installation)
-	- [Adding a new design](##adding-new-design)
-	- [Setting design configuration](##setting-design-configuration)
-	- [Synthesis](##synthesis)
-	- [Floorplan](##floorplan)
-	- [Placement](##placement)
-	- [Routing](##routing)
-	- [Final Layout](##final-layout)
+	- [Adding a new design](#adding-new-design)
+	- [Setting design configuration](#setting-design-configuration)
+	- [Synthesis](#synthesis)
+	- [Floorplan](#floorplan)
+	- [Placement](#placement)
+	- [Routing](#routing)
+	- [Final Layout](#final-layout)
 - [Pre-layout](#pre-layout)
-	- [Simulation results](##simulation-results)
-	- [Performance](##performance)
+	- [Simulation results](#simulation-results)
+	- [Performance](#performance)
 - [Post-layout](#post-layout)
-	- [Synthesis](##synthesis)
-	- [Simulation](##simulation)
+	- [Synthesis](#synthesis)
+	- [Simulation](#simulation)
 - [Instant count](#instant-count)
 - [Steps to reproduce and explore the design](#steps-to-reproduce-and-explore-the-design)
 - [Keys to remember](#keys-to-remember)
@@ -28,6 +28,8 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 
 
 ## Design Overview
+
+![Slide2](https://user-images.githubusercontent.com/80625515/130178718-6287da54-30a0-424d-9d31-e678ba448d59.JPG)
 
 ## Verilog behavioral design
 
