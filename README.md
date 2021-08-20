@@ -233,7 +233,7 @@ if { [file exists $filename] == 1} {
 
 ```
 cd floorplan
-magic -T sky130A.tech lef read merged.lef def read dvsd_pe.floorplan.def &
+magic lef read merged.lef def read dvsd_pe.floorplan.def &
 
 ```
 
@@ -291,7 +291,7 @@ Total             1651            61            3.69%             0 /  0 /  0
 
 ```
 cd placement 
-magic -T sky130A.tech lef read merged.lef def read dvsd_pe.placement.def &
+magic lef read merged.lef def read dvsd_pe.placement.def &
 
 ```
 
@@ -414,6 +414,13 @@ Number of nets violated: 0
 
 ![tkon](https://user-images.githubusercontent.com/80625515/130257765-e0b54334-3b84-4e30-ba94-704a7935440e.png)
 
+- Steps to explore final layout
+
+```
+cd final_layout
+magic dvsd_pe.mag
+
+```
 
 ## Post-layout
 
