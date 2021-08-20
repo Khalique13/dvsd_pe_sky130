@@ -295,7 +295,8 @@ magic -T sky130A.tech lef read merged.lef def read dvsd_pe.placement.def &
 
 ```
 
-![placement_final](https://user-images.githubusercontent.com/80625515/130277765-bc5c3011-9cf5-48a4-97c0-27c31d187b00.png)
+![placement_final](https://user-images.githubusercontent.com/80625515/130279072-c7e1e1dd-6061-46e0-a9d5-85c7470c8ebc.png)
+
 
 
 ### Routing
