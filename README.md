@@ -2,23 +2,21 @@
 *The purpose of this project is to produce clean GDS (Graphic Design System) Final Layout with all details that is used to print photomasks used in fabrication of a behavioral RTL (Register-Transfer Level) of an 8 bit Priorty Encoder, using SkyWater 130 nm PDK (Process Design Kit)*
 
 # Table of Contents
+
 - [Design Overview](#design-overview)
 - [IP specs Provided](#ip-specs-provided)
 - [Verilog behavioral design](#verilog-behavioral-design)
+- [Pre-layout](#pre-layout)
+	- [Simulation](#simulation)
 - [OpenLane](#openlane)
 	- [Installation](#installation)
 	- [Running OpenLane](#running-openlane)
-	- [Synthesis](#synthesis)
-	- [Floorplanning Placement and Routing ](#floorplanning-placement-and-routing)
-	- [Routing](#routing)
-	- [Final Layout](#final-layout)
-- [Pre-layout](#pre-layout)
-	- [Simulation](#simulation)
-	- [Performance](#performance)
+- [Synthesis](#synthesis)
+- [Floorplanning Placement and Routing ](#floorplanning-placement-and-routing)
+- [Routing](#routing)
+- [Final Layout](#final-layout)
 - [Post-layout](#post-layout)
-	- [Synthesis](#synthesis)
 	- [Simulation](#simulation)
-- [Instant count](#instant-count)
 - [Steps to reproduce and explore the design](#steps-to-reproduce-and-explore-the-design)
 - [Keys to remember](#keys-to-remember)
 - [Area of improvement](#area-of-improvement)
@@ -123,6 +121,7 @@ flow.tcl -design dvsd_pe -synth_explore
 
 ```
 
+
 ``` 
 
 - Printing statistics.
@@ -166,62 +165,34 @@ flow.tcl -design dvsd_pe -synth_explore
 ![synthesis](https://user-images.githubusercontent.com/80625515/130226013-809dac5c-563e-46e7-85b4-c83feb46587c.png)
 
 
-### Floorplanning Placement and Routing
+## Pre-layout
 
-``` 
+### Simulation
 
-[INFO ODB-0223]     Created 13 technology layers
-[INFO ODB-0224]     Created 25 technology vias
-[INFO ODB-0225]     Created 441 library cells
-[INFO ODB-0226] Finished LEF file:  /openLANE_flow/designs/dvsd_pe/runs/20-08_11-32/tmp/merged_unpadded.lef
-[INFO ODB-0127] Reading DEF file: /openLANE_flow/designs/dvsd_pe/runs/20-08_11-32/results/floorplan/dvsd_pe.floorplan.def
-[INFO ODB-0128] Design: dvsd_pe
-[INFO ODB-0130]     Created 14 pins.
-[INFO ODB-0131]     Created 64 components and 361 component-terminals.
-[INFO ODB-0133]     Created 42 nets and 119 connections.
-[INFO ODB-0134] Finished DEF file: /openLANE_flow/designs/dvsd_pe/runs/20-08_11-32/results/floorplan/dvsd_pe.floorplan.def
-[INFO PDN-0016] Power Delivery Network Generator: Generating PDN
-  config: /home/khalique/openlane/OpenLane/pdks/sky130A/libs.tech/openlane/common_pdn.tcl
-[INFO PDN-0008] Design Name is dvsd_pe
-[INFO PDN-0009] Reading technology data
-[INFO PDN-0011] ****** INFO ******
-Type: stdcell, grid
-    Stdcell Rails
-      Layer: met1  -  width: 0.480  pitch: 2.720  offset: 0.000 
-    Straps
-      Layer: met4  -  width: 1.600  pitch: 7.708  offset: 3.854 
-      Layer: met5  -  width: 1.600  pitch: 11.042  offset: 5.521 
-    Connect: {met4 met5} {met1 met4}
-Type: macro, macro_1
-    Macro orientation: R0 R180 MX MY R90 R270 MXR90 MYR90
-    Straps
-    Connect: {met4_PIN_ver met5}
-[INFO PDN-0012] **** END INFO ****
-[INFO PDN-0013] Inserting stdcell grid - grid
-[INFO PDN-0015] Writing to database
-[WARNING PSM-0016] Voltage pad location (vsrc) file not specified, defaulting pad location to checkerboard pattern on core area.
-[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
-[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
-[WARNING PSM-0019] Voltage on net VPWR is not explicitly set.
-[WARNING PSM-0022] Using voltage 1.800V for VDD network.
-[WARNING PSM-0063] Specified bump pitches of 140.000 and 140.000 are less than core width of 23.000 or core height of 32.640. Changing bump location to the center of the die at (11.500, 16.320)
-[WARNING PSM-0065] VSRC location not specified using default checkerboard pattern with one VDD everysize bumps in x-direction and one in two bumps in the y-direction
-[INFO PSM-0031] Number of PDN nodes on net VPWR = 240.
-[INFO PSM-0064] Number of voltage sources = 1
-[INFO PSM-0040] All PDN stripes on net VPWR are connected.
-[WARNING PSM-0016] Voltage pad location (vsrc) file not specified, defaulting pad location to checkerboard pattern on core area.
-[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
-[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
-[WARNING PSM-0019] Voltage on net VGND is not explicitly set.
-[WARNING PSM-0021] Using voltage 0.000V for ground network.
-[WARNING PSM-0063] Specified bump pitches of 140.000 and 140.000 are less than core width of 23.000 or core height of 32.640. Changing bump location to the center of the die at (11.500, 16.320)
-[WARNING PSM-0065] VSRC location not specified using default checkerboard pattern with one VDD everysize bumps in x-direction and one in two bumps in the y-direction
-[WARNING PSM-0030] Vsrc location at (11.500um, 16.320um) and size =10.000um, is not located on a power stripe. Moving to closest stripe at (10.800um, 21.682um).
-[INFO PSM-0031] Number of PDN nodes on net VGND = 183.
-[INFO PSM-0064] Number of voltage sources = 1
-[INFO PSM-0040] All PDN stripes on net VGND are connected.
+  Terminal snap (To perform pre-layout simulation)
+  
+  ![pre_layout_sim_ter](https://user-images.githubusercontent.com/80625515/130185638-d927ef90-81d7-4642-b03f-10dfdc7c3ce1.png)
+
+  GTKWave output waveform
+  
+ ![pre_layout_sim](https://user-images.githubusercontent.com/80625515/130185662-662b9542-c5c1-4584-9d7f-da6d140f4aad.png)
+
+### Steps to reproduce Pre-layout simulation
+
+ Open terminal in your system (preferred Ubuntu OS)
 
 ```
+git clone https://github.com/Khalique13/dvsd_pe_1v8.git
+cd dvsd_pe_1v8/pre_layout/
+iverilog -o dvsd_pe dvsd_pe.v test_dvsd_pe.v
+./dvsd_pe
+gtkwave dvsd_pe.vcd
+```
+
+
+### Floorplanning Placement and Routing
+
+
 - Placement Analysis
 
 ```
@@ -331,35 +302,9 @@ Number of nets violated: 0
 
 ### Final Layout
 
-## Pre-layout
 
-### Simulation
-
-  Terminal snap (To perform pre-layout simulation)
-  
-  ![pre_layout_sim_ter](https://user-images.githubusercontent.com/80625515/130185638-d927ef90-81d7-4642-b03f-10dfdc7c3ce1.png)
-
-  GTKWave output waveform
-  
- ![pre_layout_sim](https://user-images.githubusercontent.com/80625515/130185662-662b9542-c5c1-4584-9d7f-da6d140f4aad.png)
-
-### Steps to reproduce Pre-layout simulation
-
- Open terminal in your system (preferred Ubuntu OS)
-
-```
-git clone https://github.com/Khalique13/dvsd_pe_1v8.git
-cd dvsd_pe_1v8/pre_layout/
-iverilog -o dvsd_pe dvsd_pe.v test_dvsd_pe.v
-./dvsd_pe
-gtkwave dvsd_pe.vcd
-```
-
-### Performance
 
 ## Post-layout
-
-
 
 ### Simulation
 
@@ -382,8 +327,6 @@ iverilog -o gls gls.v primitives.v sky130_fd_sc_hd.v
 ./gls
 gtkwave gls.vcd
 ```
-
-## Instant count
 
 ## Steps to reproduce and explore the design
 
