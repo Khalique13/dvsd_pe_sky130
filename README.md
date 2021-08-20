@@ -12,7 +12,8 @@
 	- [Installation](#installation)
 	- [Running OpenLane](#running-openlane)
 - [Synthesis](#synthesis)
-- [Floorplanning Placement and Routing ](#floorplanning-placement-and-routing)
+- [Floorplanning](#floorplanning)
+- [Placement](#placement)
 - [Routing](#routing)
 - [Final Layout](#final-layout)
 - [Post-layout](#post-layout)
@@ -193,8 +194,38 @@ gtkwave dvsd_pe.vcd
 ```
 
 
-### Floorplanning Placement and Routing
+### Floorplanning 
 
+```
+
+# User config
+set ::env(DESIGN_NAME) dvsd_pe
+
+# Change if needed
+set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/*.v]
+
+# turn off clock
+set ::env(CLOCK_TREE_SYNTH) 0
+set ::env(CLOCK_PORT) ""
+
+set ::env(PL_SKIP_INITIAL_PLACEMENT) 1
+set ::env(PL_RANDOM_GLB_PLACEMENT) 0
+
+set ::env(FP_SIZING) absolute
+set ::env(DIE_AREA) "0 0 34.165 54.885"
+set ::env(PL_TARGET_DENSITY) 0.75
+
+set ::env(FP_HORIZONTAL_HALO) 6
+set ::env(FP_VERTICAL_HALO) $::env(FP_HORIZONTAL_HALO)
+
+set filename $::env(DESIGN_DIR)/$::env(PDK)_$::env(STD_CELL_LIBRARY)_config.tcl
+if { [file exists $filename] == 1} {
+	source $filename
+}
+
+```
+
+### Placement
 
 - Placement Analysis
 
@@ -208,6 +239,43 @@ legalized HPWL            838.1 u
 delta HPWL                   31 %
 
 ```
+
+- Routing resources analysis
+
+```
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical          420           396          5.71%
+met1       Horizontal        560           380          32.14%
+met2       Vertical          420           432          -2.86%
+met3       Horizontal        280           234          16.43%
+met4       Vertical          168           167          0.60%
+met5       Horizontal         56            42          25.00%
+---------------------------------------------------------------
+
+```
+
+- Final congestion report
+
+```
+
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                396            31            7.83%             0 /  0 /  0
+met1               380            26            6.84%             0 /  0 /  0
+met2               432             4            0.93%             0 /  0 /  0
+met3               234             0            0.00%             0 /  0 /  0
+met4               167             0            0.00%             0 /  0 /  0
+met5                42             0            0.00%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total             1651            61            3.69%             0 /  0 /  0
+
+```
+
+### Routing
+
+
 
 - Routing resurces analysis
 
@@ -223,6 +291,23 @@ met3       Horizontal        280           234          16.43%
 met4       Vertical          168           167          0.60%
 met5       Horizontal         56            42          25.00%
 ---------------------------------------------------------------
+
+```
+
+- Final congestion report
+
+```
+
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                168            31           18.45%             0 /  0 /  0
+met1               384            43           11.20%             0 /  0 /  0
+met2               432            36            8.33%             0 /  0 /  0
+met3               234             0            0.00%             0 /  0 /  0
+met4               167             0            0.00%             0 /  0 /  0
+met5                42             0            0.00%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total             1427           110            7.71%             0 /  0 /  0
 
 ```
 
@@ -252,24 +337,7 @@ up-via summary (total 297):
 
 ```
 
-- Final congestion report
-
-```
-
-Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
----------------------------------------------------------------------------------------
-li1                168            31           18.45%             0 /  0 /  0
-met1               384            43           11.20%             0 /  0 /  0
-met2               432            36            8.33%             0 /  0 /  0
-met3               234             0            0.00%             0 /  0 /  0
-met4               167             0            0.00%             0 /  0 /  0
-met5                42             0            0.00%             0 /  0 /  0
----------------------------------------------------------------------------------------
-Total             1427           110            7.71%             0 /  0 /  0
-
-```
-
-- Final Summary 
+#### - Final Summary 
 
 ```
 
