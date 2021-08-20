@@ -21,7 +21,7 @@
 - [Steps to reproduce and explore the design](#steps-to-reproduce-and-explore-the-design)
 - [Area of improvement](#area-of-improvement)
 - [References](#references)
-- [Acknowledgement](#acknowledgement)
+- [Contacts](#contacts)
 
 
 ### Design Overview
@@ -234,7 +234,6 @@ if { [file exists $filename] == 1} {
 ```
 cd floorplan
 magic lef read merged.lef def read dvsd_pe.floorplan.def &
-
 ```
 
 ![floorplan_final](https://user-images.githubusercontent.com/80625515/130277419-7752eb72-0f37-482a-9ad6-5013479649a4.png)
@@ -292,7 +291,6 @@ Total             1651            61            3.69%             0 /  0 /  0
 ```
 cd placement 
 magic lef read merged.lef def read dvsd_pe.placement.def &
-
 ```
 
 ![placement_final](https://user-images.githubusercontent.com/80625515/130279072-c7e1e1dd-6061-46e0-a9d5-85c7470c8ebc.png)
@@ -419,7 +417,6 @@ Number of nets violated: 0
 ```
 cd final_layout
 magic dvsd_pe.mag
-
 ```
 
 ## Post-layout
@@ -459,7 +456,8 @@ gtkwave gls.vcd
 - [The OpenROAD Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 - Ahmed Ghazy and Mohamed Shalan, "OpenLane: The Open-Source Digital ASIC Implementation Flow", Article No.21, Workshop on Open-Source EDA Technology (WOSET), 2020. [Paper](https://github.com/woset-workshop/woset-workshop.github.io/blob/master/PDFs/2020/a21.pdf)
 
-## Acknowledgement
+
+## Contacts
 
 - [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
 - [Mohammad Khalique Khan](https://github.com/Khalique13), Bachelor of Technology in Electronics & Communication Engineering, Aliah University
