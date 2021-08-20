@@ -102,5 +102,5 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 
 ## Acknowledgement
 
-- **Kunal Ghosh**, Founder, VSD Corp. Pvt. Ltd
-- **Mohammad Khalique Khan**, Bachelor of Technology in Electronics & Communication Engineering, Aliah University
+- [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
+- [Mohammad Khalique Khan](https://github.com/Khalique13), Bachelor of Technology in Electronics & Communication Engineering, Aliah University
