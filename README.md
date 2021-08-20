@@ -222,6 +222,61 @@ Type: macro, macro_1
 [INFO PSM-0040] All PDN stripes on net VGND are connected.
 
 ```
+- Placement Analysis
+
+```
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL             804.4 u
+legalized HPWL            838.1 u
+delta HPWL                    4 %
+
+```
+
+- Routing resurces analysis
+
+```
+
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical          420           168          60.00%
+met1       Horizontal        560           384          31.43%
+met2       Vertical          420           432          -2.86%
+met3       Horizontal        280           234          16.43%
+met4       Vertical          168           167          0.60%
+met5       Horizontal         56            42          25.00%
+---------------------------------------------------------------
+
+```
+
+- Complete detail routing
+
+```
+
+total wire length = 874 um
+total wire length on LAYER li1 = 62 um
+total wire length on LAYER met1 = 341 um
+total wire length on LAYER met2 = 438 um
+total wire length on LAYER met3 = 31 um
+total wire length on LAYER met4 = 0 um
+total wire length on LAYER met5 = 0 um
+total number of vias = 297
+up-via summary (total 297):
+
+----------------------
+ FR_MASTERSLICE      0
+            li1    153
+           met1    138
+           met2      6
+           met3      0
+           met4      0
+----------------------
+                   297
+
+```
 
 - Final congestion report
 
