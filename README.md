@@ -1,4 +1,4 @@
-# dvsd_pe_1v8 (8 bit Priority Encoder RTL to GDS flow) 
+# dvsd_pe (8 bit Priority Encoder RTL to GDS flow) 
 In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 
 # Contents
