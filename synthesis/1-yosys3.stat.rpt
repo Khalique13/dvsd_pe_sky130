@@ -1,0 +1,32 @@
+
+56. Printing statistics.
+
+=== dvsd_pe ===
+
+   Number of wires:                 35
+   Number of wire bits:             44
+   Number of public wires:           5
+   Number of public wire bits:      14
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 35
+     sky130_fd_sc_hd__a21boi_2       1
+     sky130_fd_sc_hd__a21o_2         1
+     sky130_fd_sc_hd__a21oi_2        2
+     sky130_fd_sc_hd__and2_2         2
+     sky130_fd_sc_hd__and2b_2        2
+     sky130_fd_sc_hd__and3_2         1
+     sky130_fd_sc_hd__dlxtn_1        3
+     sky130_fd_sc_hd__inv_2          5
+     sky130_fd_sc_hd__nand2_2        3
+     sky130_fd_sc_hd__nand3_2        2
+     sky130_fd_sc_hd__nand3b_2       2
+     sky130_fd_sc_hd__nor2_2         4
+     sky130_fd_sc_hd__o21ai_2        3
+     sky130_fd_sc_hd__o21bai_2       1
+     sky130_fd_sc_hd__o22ai_2        1
+     sky130_fd_sc_hd__or2b_2         2
+
+   Chip area for module '\dvsd_pe': 295.283200
+
