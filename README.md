@@ -5,7 +5,7 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 - [Design Overview](#design-overview)
 - [IP specs Provided](#ip-specs-provided)
 - [Verilog behavioral design](#verilog-behavioral-design)
-- [Openlane](#openlane)
+- [OpenLane](#openlane)
 	- [Installation](#installation)
 	- [Running OpenLane](#running-openlane)
 	- [Synthesis](#synthesis)
@@ -47,10 +47,10 @@ For more information check [here](https://openlane.readthedocs.io/)
 #### Prerequisites
 At a minimum:
 
--Docker 19.03.12+
--GNU Make
--Python 3.6+ with PIP
--Click, Pyyaml: `pip3 install pyyaml click`
+- Docker 19.03.12+
+- GNU Make
+- Python 3.6+ with PIP
+- Click, Pyyaml: `pip3 install pyyaml click`
 
 ```
 git clone https://github.com/The-OpenROAD-Project/OpenLane.git
@@ -81,7 +81,11 @@ You can use the following example to check the overall setup:
 
 `./flow.tcl -design spm`
 
+To run openlane in interactive mode
 
+`./flow.tcl -interactive`
+
+![openlane_interactive](https://user-images.githubusercontent.com/80625515/130196432-7e20d103-ce86-4a9c-8a10-757f3bf26e0c.png)
 
 ### Synthesis
 
