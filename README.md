@@ -19,6 +19,7 @@
 - [Post-layout](#post-layout)
 	- [Simulation](#simulation)
 - [Steps to reproduce and explore the design](#steps-to-reproduce-and-explore-the-design)
+- [Key points to Remember](#key-points-to-remember)
 - [Area of improvement](#area-of-improvement)
 - [References](#references)
 - [Contacts](#contacts)
@@ -452,10 +453,16 @@ iverilog -o gls gls.v primitives.v sky130_fd_sc_hd.v
 gtkwave gls.vcd
 ```
 
+## Key points to Remember
+
+- Keep the top module name and design name always, else errors would come in the design.
+- This project is a Combinaional block hence there is no clock, static  time analysis is being skiped.
 
 ## Area of improvement
 
-
+- Improvement in the design and integration of Power pins.
+- Post layout simulation bugs to be fixed in sky130 nm pdks.
+- To perform spice simulation of the final GDS layout.
 
 ## References
 
