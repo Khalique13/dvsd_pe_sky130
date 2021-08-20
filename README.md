@@ -2,23 +2,28 @@
 In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 
 # Contents
-[- Design Overview](#design-overview )
-[- Verilog behavioral design](#verilog-behavioral-design)
-[- Openlane]
-	[- Installation]
-	[- Adding a new design]
-	[- Setting design configuration]
-	[- Synthesis]
-	[- Floorplan]
-	[- Placement]
-	[- Routing]
-	[- Final Layout] 
-[- RTL functional simulation results]
-[- Pre-layout performance]
-[- Instant count]
-[- Post-layout Area]
-[- Post-layout simulations (GLS)]
-[- Steps to reproduce and explore the design]
+- [Design Overview](#design-overview )
+- [Verilog behavioral design](#verilog-behavioral-design)
+- [Openlane](#openlane)
+	- [Installation](#installation)
+	- [Adding a new design](##adding-new-design)
+	- [Setting design configuration](##setting-design-configuration)
+	- [Synthesis](##synthesis)
+	- [Floorplan](##floorplan)
+	- [Placement](##placement)
+	- [Routing](##routing)
+	- [Final Layout](##final-layout)
+- [RTL functional simulation results]()
+- [Pre-layout performance]()
+- [Instant count](#instant-count)
+- [Post-layout Area](#post-layout-area)
+- [Post-layout simulations (GLS)](#post-layout-simulations-(gls))
+- [Steps to reproduce and explore the design](#steps-to-reproduce-and-explore-the-design)
+- [Keys to remember](#keys-to-remember)
+- [Area of improvement](#area-of-improvement)
+- [References](#references)
+- [Acknowledgement](#acknowledgement)
+
 
 ## Design Overview
 
