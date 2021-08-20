@@ -98,8 +98,66 @@ flow.tcl -design dvsd_pe -synth_explore
 
 ![synth_explore](https://user-images.githubusercontent.com/80625515/130225635-8bee797c-dcf3-445f-9b02-b197dd2c3b39.png)
 
-![chip_area_276 5](https://user-images.githubusercontent.com/80625515/130226426-691a600b-3f83-44bf-a766-5b21427ad192.png) 
-![pre_stats](https://user-images.githubusercontent.com/80625515/130226445-5e9e3d95-ddc5-4422-8741-02c8c95ef0c5.png)
+
+```
+
+- Printing statistics.
+
+=== dvsd_pe ===
+
+   Number of wires:                 53
+   Number of wire bits:             64
+   Number of public wires:           5
+   Number of public wire bits:      14
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 55
+     $_ANDNOT_                      10
+     $_AND_                          1
+     $_DLATCH_N_                     3
+     $_NAND_                         3
+     $_NOR_                          4
+     $_ORNOT_                        9
+     $_OR_                          25
+
+
+```
+
+``` 
+
+- Printing statistics.
+
+=== dvsd_pe ===
+
+   Number of wires:                 35
+   Number of wire bits:             44
+   Number of public wires:           5
+   Number of public wire bits:      14
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 35
+     sky130_fd_sc_hd__a21oi_2        1
+     sky130_fd_sc_hd__a2bb2o_2       1
+     sky130_fd_sc_hd__a31o_2         1
+     sky130_fd_sc_hd__buf_1          5
+     sky130_fd_sc_hd__dlxtn_1        3
+     sky130_fd_sc_hd__inv_2          8
+     sky130_fd_sc_hd__o21ai_2        1
+     sky130_fd_sc_hd__o22a_2         2
+     sky130_fd_sc_hd__o22ai_2        1
+     sky130_fd_sc_hd__o2bb2a_2       1
+     sky130_fd_sc_hd__o41a_2         2
+     sky130_fd_sc_hd__or2_2          1
+     sky130_fd_sc_hd__or3_2          2
+     sky130_fd_sc_hd__or4_2          4
+     sky130_fd_sc_hd__or4b_2         2
+
+   Chip area for module '\dvsd_pe': 276.515200
+
+
+```
 
 
 - Yosys synthesis strategies
