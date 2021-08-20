@@ -213,12 +213,7 @@ if { [file exists $filename] == 1} {
 
 ```
 
-- Steps to explore floorplan
 
-```
-cd floorplan/
-magic lef read merged.lef def read dvsd_pe.floorplan.def &
-```
 
 ![floorplan_final](https://user-images.githubusercontent.com/80625515/130277419-7752eb72-0f37-482a-9ad6-5013479649a4.png)
 
@@ -270,12 +265,7 @@ met5                42             0            0.00%             0 /  0 /  0
 Total             1651            61            3.69%             0 /  0 /  0
 
 ```
-- Steps to explore placement
-
-```
-cd placement/ 
-magic lef read merged.lef def read dvsd_pe.placement.def &
-```
+Check [here](#436) to explore the design
 
 ![placement_final](https://user-images.githubusercontent.com/80625515/130279072-c7e1e1dd-6061-46e0-a9d5-85c7470c8ebc.png)
 
