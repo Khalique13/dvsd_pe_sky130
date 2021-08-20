@@ -162,6 +162,7 @@ flow.tcl -design dvsd_pe -synth_explore
 - Yosys synthesis strategies
 
 ![synth1](https://user-images.githubusercontent.com/80625515/130226001-21fe0cbe-5a63-4444-9844-08fc22b9c19d.png)
+
 ![synthesis](https://user-images.githubusercontent.com/80625515/130226013-809dac5c-563e-46e7-85b4-c83feb46587c.png)
 
 
@@ -219,6 +220,23 @@ Type: macro, macro_1
 [INFO PSM-0031] Number of PDN nodes on net VGND = 183.
 [INFO PSM-0064] Number of voltage sources = 1
 [INFO PSM-0040] All PDN stripes on net VGND are connected.
+
+```
+
+- Final congestion report
+
+```
+
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                168            31           18.45%             0 /  0 /  0
+met1               384            43           11.20%             0 /  0 /  0
+met2               432            36            8.33%             0 /  0 /  0
+met3               234             0            0.00%             0 /  0 /  0
+met4               167             0            0.00%             0 /  0 /  0
+met5                42             0            0.00%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total             1427           110            7.71%             0 /  0 /  0
 
 ```
 
