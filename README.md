@@ -37,7 +37,8 @@
 
 Yosys synthesis
 
-![yosys_dot](https://user-images.githubusercontent.com/80625515/130267454-ee67d802-729c-4d7c-affa-fdcf0dc40d85.png)
+![yosys_dot](https://user-images.githubusercontent.com/80625515/130267839-02a599bd-cc58-40b6-b009-fddc16b97eda.png)
+
 
 
 ## OpenLane 
