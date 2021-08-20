@@ -2,53 +2,53 @@
 In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 
 # Contents
-- [Design Overview](#-Design-Overview )
-- Verilog behavioral design 
-- Openlane
-	- Installation
-	- Adding a new design
-	- Setting design configuration
-	- Synthesis
-	- Floorplan
-	- Placement
-	- Routing
-	- Final Layout 
-- RTL functional simulation results
-- Pre-layout performance
-- Instant count
-- Post-layout Area
-- Post-layout simulations (GLS)
-- Steps to reproduce and explore the design
+[- Design Overview](#design-overview )
+[- Verilog behavioral design](#verilog-behavioral-design)
+[- Openlane]
+	[- Installation]
+	[- Adding a new design]
+	[- Setting design configuration]
+	[- Synthesis]
+	[- Floorplan]
+	[- Placement]
+	[- Routing]
+	[- Final Layout] 
+[- RTL functional simulation results]
+[- Pre-layout performance]
+[- Instant count]
+[- Post-layout Area]
+[- Post-layout simulations (GLS)]
+[- Steps to reproduce and explore the design]
 
-# Design Overview
+## Design Overview
 
-# Verilog behavioral design
+## Verilog behavioral design
 
-# Openlane 
+## Openlane 
 
-## Installation
+### Installation
 
-## Adding new design
+### Adding new design
 
-## Setting design configuration
+### Setting design configuration
 
-## Synthesis
+### Synthesis
 
-## Floorplan
+### Floorplan
 
-## Placement
+### Placement
 
-## Routing
+### Routing
 
-## Final Layout
+### Final Layout
 
-# Steps to perform pre layout simulation
+## Steps to perform pre layout simulation
 
 - `iverilog -o dvsd_pe dvsd_pe.v test_dvsd_pe.v`
 - `./dvsd_pe`
 - `gtkwave dvsd_pe.vcd`
 
-# To perform simulation in yout system
+### To perform simulation in yout system
 
 1. Open terminal in your system (preferred Ubuntu OS)
 
@@ -57,7 +57,7 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 
 Follow the above steps to get the results
 
-# Prelayout Layout simulation
+### Prelayout Layout simulation
 
   Terminal snap (To perform pre-layout simulation)
   
@@ -67,22 +67,22 @@ Follow the above steps to get the results
   
   ![pre_layout_sim](https://user-images.githubusercontent.com/80625515/130084221-8654af3a-aaf5-417f-b290-c65f87536778.png)
 
-# Pre-layout performance
+## Pre-layout performance
 
-# Instant count
+## Instant count
 
-# Post-layout Area
+## Post-layout Area
 
-# Post-layout simulations (GLS)
+## Post-layout simulations (GLS)
 
-# Steps to reproduce and explore the design
+## Steps to reproduce and explore the design
 
-# Keys to remember
+## Keys to remember
 
-# Area of improvement
+## Area of improvement
 
-# References
+## References
 
-# Acknowledgement
+## Acknowledgement
 
 
