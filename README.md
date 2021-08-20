@@ -2,7 +2,8 @@
 In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 
 # Contents
-- [Design Overview](#design-overview )
+- [Design Overview](#design-overview)
+- [IP specs Provided](#ip-specs-provided)
 - [Verilog behavioral design](#verilog-behavioral-design)
 - [Openlane](#openlane)
 	- [Installation](#installation)
@@ -30,6 +31,10 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 ### Design Overview
 
 ![Slide2](https://user-images.githubusercontent.com/80625515/130179293-b7b03b4c-2feb-40a6-814a-31af06acc3cd.PNG)
+
+### IP specs provided
+
+![Slide4](https://user-images.githubusercontent.com/80625515/130180121-a4e5d529-bb6d-4ed3-a265-aad5030f82f7.PNG)
 
 ### Verilog behavioral design
 
@@ -93,6 +98,9 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 
 ## References
 
+
+
 ## Acknowledgement
 
-
+- **Kunal Ghosh**, Founder, VSD Corp. Pvt. Ltd
+- **Mohammad Khalique Khan**, Bachelor of Technology in Electronics & Communication Engineering, Aliah University
