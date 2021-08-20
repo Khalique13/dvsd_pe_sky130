@@ -58,27 +58,27 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 
 ## Pre-layout
 
-
-
 ### Steps to reproduce Pre-layout simulation
 
  Open terminal in your system (preferred Ubuntu OS)
 
-- `git clone https://github.com/Khalique13/dvsd_pe_1v8.git`
-- `cd dvsd_pe_1v8/pre_layout`
-- `iverilog -o dvsd_pe dvsd_pe.v test_dvsd_pe.v`
-- `./dvsd_pe`
-- `gtkwave dvsd_pe.vcd`
+```
+git clone https://github.com/Khalique13/dvsd_pe_1v8.git
+cd dvsd_pe_1v8/pre_layout`
+iverilog -o dvsd_pe dvsd_pe.v test_dvsd_pe.v
+./dvsd_pe
+gtkwave dvsd_pe.vcd
+```
 
 ### Simulation results
 
   Terminal snap (To perform pre-layout simulation)
   
-  ![pre_layout_sim_ter](https://user-images.githubusercontent.com/80625515/130051278-4923d434-75f6-44ed-88dd-3a2864a3b84b.png)
+  ![pre_layout_sim_ter](https://user-images.githubusercontent.com/80625515/130185638-d927ef90-81d7-4642-b03f-10dfdc7c3ce1.png)
 
   GTKWave output waveform
   
-  ![pre_layout_sim](https://user-images.githubusercontent.com/80625515/130084221-8654af3a-aaf5-417f-b290-c65f87536778.png)
+ ![pre_layout_sim](https://user-images.githubusercontent.com/80625515/130185662-662b9542-c5c1-4584-9d7f-da6d140f4aad.png)
 
 ### Performance
 
@@ -87,6 +87,14 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 ### Synthesis
 
 ### Simulation
+
+Terminal snap (To perform poost-layout simulation)
+
+![post_lay_sim_ter](https://user-images.githubusercontent.com/80625515/130186007-cae62c79-9d57-4d5e-bce4-aca9f58d1737.png)
+
+GTKWave output waveform
+
+![post_lay_simwave](https://user-images.githubusercontent.com/80625515/130186034-15f25465-d28e-4581-bbb5-971038083874.png)
 
 ## Instant count
 
