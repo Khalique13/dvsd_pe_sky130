@@ -98,12 +98,15 @@ flow.tcl -design dvsd_pe -synth_explore
 
 ![synth_explore](https://user-images.githubusercontent.com/80625515/130225635-8bee797c-dcf3-445f-9b02-b197dd2c3b39.png)
 
-![chip_area_276 5](https://user-images.githubusercontent.com/80625515/130226426-691a600b-3f83-44bf-a766-5b21427ad192.png) ![pre_stats](https://user-images.githubusercontent.com/80625515/130226445-5e9e3d95-ddc5-4422-8741-02c8c95ef0c5.png)
+![chip_area_276 5](https://user-images.githubusercontent.com/80625515/130226426-691a600b-3f83-44bf-a766-5b21427ad192.png) 
+![pre_stats](https://user-images.githubusercontent.com/80625515/130226445-5e9e3d95-ddc5-4422-8741-02c8c95ef0c5.png)
 
 
-Yosys synthesis strategies
+- Yosys synthesis strategies
+
 ![synth1](https://user-images.githubusercontent.com/80625515/130226001-21fe0cbe-5a63-4444-9844-08fc22b9c19d.png)
 ![synthesis](https://user-images.githubusercontent.com/80625515/130226013-809dac5c-563e-46e7-85b4-c83feb46587c.png)
+
 
 ### Floorplan
 
