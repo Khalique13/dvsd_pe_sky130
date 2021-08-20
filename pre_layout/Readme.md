@@ -1,14 +1,15 @@
 # Steps to perform pre layout simulation
 
-- iverilog -o dvsd_pe dvsd_pe.v test_dvsd_pe.v
-- ./dvsd_pe
-- gtkwave dvsd_pe.vcd
+`iverilog -o dvsd_pe dvsd_pe.v test_dvsd_pe.v`
+`./dvsd_pe`
+`gtkwave dvsd_pe.vcd`
 
 # To perform simulation in yout system
 
-- Open terminal in your system (preferred Ubuntu OS)
-- git clone https://github.com/Khalique13/dvsd_pe_1v8.git
-- cd dvsd_pe_1v8/pre_layout
+1. Open terminal in your system (preferred Ubuntu OS)
+
+ `git clone https://github.com/Khalique13/dvsd_pe_1v8.git`
+ `cd dvsd_pe_1v8/pre_layout`
 
 Follow the above steps to get the results
 
