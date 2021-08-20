@@ -13,11 +13,11 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 	- [Placement](##placement)
 	- [Routing](##routing)
 	- [Final Layout](##final-layout)
-- [RTL functional simulation results]()
-- [Pre-layout performance]()
+- [Pre layout simulation](#pre-layout-simulation)
+- [Pre-layout performance](#prelayout-performance)
 - [Instant count](#instant-count)
 - [Post-layout Area](#post-layout-area)
-- [Post-layout simulations (GLS)](#post-layout-simulations-(gls))
+- [Post-layout simulations](#post-layout-simulations)
 - [Steps to reproduce and explore the design](#steps-to-reproduce-and-explore-the-design)
 - [Keys to remember](#keys-to-remember)
 - [Area of improvement](#area-of-improvement)
@@ -47,20 +47,19 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 
 ### Final Layout
 
-## Steps to perform pre layout simulation
+## Pre layout simulation
 
-- `iverilog -o dvsd_pe dvsd_pe.v test_dvsd_pe.v`
-- `./dvsd_pe`
-- `gtkwave dvsd_pe.vcd`
+
 
 ### To perform simulation in yout system
 
-1. Open terminal in your system (preferred Ubuntu OS)
+ Open terminal in your system (preferred Ubuntu OS)
 
- - `git clone https://github.com/Khalique13/dvsd_pe_1v8.git`
- - `cd dvsd_pe_1v8/pre_layout`
-
-Follow the above steps to get the results
+- `git clone https://github.com/Khalique13/dvsd_pe_1v8.git`
+- `cd dvsd_pe_1v8/pre_layout`
+- `iverilog -o dvsd_pe dvsd_pe.v test_dvsd_pe.v`
+- `./dvsd_pe`
+- `gtkwave dvsd_pe.vcd`
 
 ### Prelayout Layout simulation
 
@@ -78,7 +77,7 @@ Follow the above steps to get the results
 
 ## Post-layout Area
 
-## Post-layout simulations (GLS)
+## Post-layout simulations
 
 ## Steps to reproduce and explore the design
 
