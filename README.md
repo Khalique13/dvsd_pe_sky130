@@ -19,7 +19,6 @@
 - [Post-layout](#post-layout)
 	- [Simulation](#simulation)
 - [Steps to reproduce and explore the design](#steps-to-reproduce-and-explore-the-design)
-- [Keys to remember](#keys-to-remember)
 - [Area of improvement](#area-of-improvement)
 - [References](#references)
 - [Acknowledgement](#acknowledgement)
@@ -35,6 +34,11 @@
 ![Slide4](https://user-images.githubusercontent.com/80625515/130180121-a4e5d529-bb6d-4ed3-a265-aad5030f82f7.PNG)
 
 ### Verilog behavioral design
+
+Yosys synthesis
+
+![yosys_dot](https://user-images.githubusercontent.com/80625515/130267454-ee67d802-729c-4d7c-affa-fdcf0dc40d85.png)
+
 
 ## OpenLane 
 
@@ -417,9 +421,10 @@ gtkwave gls.vcd
 
 
 
-## Keys to remember
 
 ## Area of improvement
+
+
 
 ## References
 
