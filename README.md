@@ -13,8 +13,9 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 	- [Placement](##placement)
 	- [Routing](##routing)
 	- [Final Layout](##final-layout)
-- [Pre layout simulation](#pre-layout-simulation)
-- [Pre-layout performance](#prelayout-performance)
+- [Pre-layout simulation](#pre-layout-simulation)
+	- []()
+	- [Pre-layout performance](##prelayout-performance)
 - [Instant count](#instant-count)
 - [Post-layout Area](#post-layout-area)
 - [Post-layout simulations](#post-layout-simulations)
@@ -51,7 +52,7 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 
 
 
-### To perform simulation in yout system
+### Steps to reproduce Pre-layout simulation
 
  Open terminal in your system (preferred Ubuntu OS)
 
@@ -61,7 +62,7 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 - `./dvsd_pe`
 - `gtkwave dvsd_pe.vcd`
 
-### Prelayout Layout simulation
+### Yosys output
 
   Terminal snap (To perform pre-layout simulation)
   
@@ -71,7 +72,7 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
   
   ![pre_layout_sim](https://user-images.githubusercontent.com/80625515/130084221-8654af3a-aaf5-417f-b290-c65f87536778.png)
 
-## Pre-layout performance
+### Pre-layout performance
 
 ## Instant count
 
