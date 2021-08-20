@@ -9,7 +9,7 @@
 	- [Installation](#installation)
 	- [Running OpenLane](#running-openlane)
 	- [Synthesis](#synthesis)
-	- [Floorplanning, Placement and Routing ](#floorplanning,-placement-and-routing)
+	- [Floorplanning Placement and Routing ](#floorplanning-placement-and-routing)
 	- [Routing](#routing)
 	- [Final Layout](#final-layout)
 - [Pre-layout](#pre-layout)
@@ -165,7 +165,7 @@ flow.tcl -design dvsd_pe -synth_explore
 ![synthesis](https://user-images.githubusercontent.com/80625515/130226013-809dac5c-563e-46e7-85b4-c83feb46587c.png)
 
 
-### Floorplanning, Placement and Routing
+### Floorplanning Placement and Routing
 
 ``` 
 
