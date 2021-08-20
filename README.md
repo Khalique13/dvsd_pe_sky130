@@ -96,12 +96,6 @@ To run openlane in interactive mode
 
 ### Synthesis
 
-Steps to explore synthesis of the design
-
-```
-make mount
-flow.tcl -design dvsd_pe -synth_explore
-```
 
 ![synth_explore](https://user-images.githubusercontent.com/80625515/130225635-8bee797c-dcf3-445f-9b02-b197dd2c3b39.png)
 
@@ -186,16 +180,6 @@ Synthesis reports
   
  ![pre_layout_sim](https://user-images.githubusercontent.com/80625515/130185662-662b9542-c5c1-4584-9d7f-da6d140f4aad.png)
 
-### Steps to reproduce Pre-layout simulation
-
-```
-git clone https://github.com/Khalique13/dvsd_pe_1v8.git
-cd dvsd_pe_1v8/pre_layout/
-iverilog -o dvsd_pe dvsd_pe.v test_dvsd_pe.v
-./dvsd_pe
-gtkwave dvsd_pe.vcd
-```
-
 
 ### Floorplanning 
 
@@ -232,7 +216,7 @@ if { [file exists $filename] == 1} {
 - Steps to explore floorplan
 
 ```
-cd floorplan
+cd floorplan/
 magic lef read merged.lef def read dvsd_pe.floorplan.def &
 ```
 
@@ -289,7 +273,7 @@ Total             1651            61            3.69%             0 /  0 /  0
 - Steps to explore placement
 
 ```
-cd placement 
+cd placement/ 
 magic lef read merged.lef def read dvsd_pe.placement.def &
 ```
 
@@ -412,12 +396,6 @@ Number of nets violated: 0
 
 ![tkon](https://user-images.githubusercontent.com/80625515/130257765-e0b54334-3b84-4e30-ba94-704a7935440e.png)
 
-- Steps to explore final layout
-
-```
-cd final_layout
-magic dvsd_pe.mag
-```
 
 ## Post-layout
 
@@ -431,19 +409,59 @@ GTKWave output waveform
 
 *`To be uploaded soon some bugs`*
 
-### Steps to reproduce Post-layout simulation
+
+
+## Steps to reproduce and explore the design
+
+- Clone the project using following command
+ 
+`git clone https://github.com/Khalique13/dvsd-8-bit-priority-encoder.git`
+
+- To explore synthesis of the design
 
 ```
-git clone https://github.com/Khalique13/dvsd_pe_1v8.git
-cd dvsd_pe_1v8/post_layout/
+make mount
+flow.tcl -design dvsd_pe -synth_explore
+```
+
+- To reproduce Pre-layout simulation
+
+```
+cd pre_layout/
+iverilog -o dvsd_pe dvsd_pe.v test_dvsd_pe.v
+./dvsd_pe
+gtkwave dvsd_pe.vcd
+```
+
+- To explore floorplan
+
+```
+cd floorplan/
+magic lef read merged.lef def read dvsd_pe.floorplan.def &
+```
+
+- To explore placement
+
+```
+cd placement/ 
+magic lef read merged.lef def read dvsd_pe.placement.def &
+```
+
+- To explore final layout
+
+```
+cd final_layout/
+magic dvsd_pe.mag
+```
+
+- To reproduce Post-layout simulation
+
+```
+cd post_layout/
 iverilog -o gls gls.v primitives.v sky130_fd_sc_hd.v
 ./gls
 gtkwave gls.vcd
 ```
-
-## Steps to reproduce and explore the design
-
-
 
 
 ## Area of improvement
