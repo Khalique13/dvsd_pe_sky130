@@ -58,6 +58,16 @@ In this project complete RTL to GDS flow has been done for 8 bit Priorty Encoder
 
 ## Pre-layout
 
+### Simulation
+
+  Terminal snap (To perform pre-layout simulation)
+  
+  ![pre_layout_sim_ter](https://user-images.githubusercontent.com/80625515/130185638-d927ef90-81d7-4642-b03f-10dfdc7c3ce1.png)
+
+  GTKWave output waveform
+  
+ ![pre_layout_sim](https://user-images.githubusercontent.com/80625515/130185662-662b9542-c5c1-4584-9d7f-da6d140f4aad.png)
+
 ### Steps to reproduce Pre-layout simulation
 
  Open terminal in your system (preferred Ubuntu OS)
@@ -70,21 +80,23 @@ iverilog -o dvsd_pe dvsd_pe.v test_dvsd_pe.v
 gtkwave dvsd_pe.vcd
 ```
 
-### Simulation
-
-  Terminal snap (To perform pre-layout simulation)
-  
-  ![pre_layout_sim_ter](https://user-images.githubusercontent.com/80625515/130185638-d927ef90-81d7-4642-b03f-10dfdc7c3ce1.png)
-
-  GTKWave output waveform
-  
- ![pre_layout_sim](https://user-images.githubusercontent.com/80625515/130185662-662b9542-c5c1-4584-9d7f-da6d140f4aad.png)
-
 ### Performance
 
 ## Post-layout
 
 ### Synthesis
+
+
+
+### Simulation
+
+Terminal snap (To perform post-layout simulation)
+
+![post_lay_sim_term](https://user-images.githubusercontent.com/80625515/130189588-be201db3-9f21-4d12-9055-9806750a0675.png)
+
+GTKWave output waveform
+
+*`To be uploaded soon some bugs`*
 
 ### Steps to reproduce Post-layout simulation
 
@@ -97,16 +109,6 @@ iverilog -o gls gls.v primitives.v sky130_fd_sc_hd.v
 ./gls
 gtkwave gls.vcd
 ```
-
-### Simulation
-
-Terminal snap (To perform post-layout simulation)
-
-![post_lay_sim_term](https://user-images.githubusercontent.com/80625515/130189588-be201db3-9f21-4d12-9055-9806750a0675.png)
-
-GTKWave output waveform
-
-
 
 ## Instant count
 
