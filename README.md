@@ -23,7 +23,7 @@
 - [Key points to Remember](#key-points-to-remember)
 - [Area of improvement](#area-of-improvement)
 - [References](#references)
-- [Contacts](#contacts)
+- [Contributors](#contributors)
 
 
 ### Design Overview
@@ -53,33 +53,33 @@ For more information check [here](https://openlane.readthedocs.io/)
 ### OpenLane design stages
 
 1. Synthesis
-	- yosys - Performs RTL synthesis
-	- abc - Performs technology mapping
-	- OpenSTA - Performs static timing analysis on the resulting netlist to generate timing reports
+	- `yosys` - Performs RTL synthesis
+	- `abc` - Performs technology mapping
+	- `OpenSTA` - Performs static timing analysis on the resulting netlist to generate timing reports
 2. Floorplan and PDN
-	- init_fp - Defines the core area for the macro as well as the rows (used for placement) and the tracks (used for routing)
-	- ioplacer - Places the macro input and output ports
-	- pdn - Generates the power distribution network
-	- tapcell - Inserts welltap and decap cells in the floorplan
+	- `init_fp` - Defines the core area for the macro as well as the rows (used for placement) and the tracks (used for routing)
+	- `ioplacer` - Places the macro input and output ports
+	- `pdn` - Generates the power distribution network
+	- `tapcell` - Inserts welltap and decap cells in the floorplan
 3. Placement
-	- RePLace - Performs global placement
-	- Resizer - Performs optional optimizations on the design
-	- OpenDP - Perfroms detailed placement to legalize the globally placed components
+	- `RePLace` - Performs global placement
+	- `Resizer` - Performs optional optimizations on the design
+	- `OpenDP` - Perfroms detailed placement to legalize the globally placed components
 4. CTS
-	- TritonCTS - Synthesizes the clock distribution network (the clock tree)
+	- `TritonCTS` - Synthesizes the clock distribution network (the clock tree)
 5. Routing
-	- FastRoute - Performs global routing to generate a guide file for the detailed router
-	- CU-GR - Another option for performing global routing.
-	- TritonRoute - Performs detailed routing
-	- SPEF-Extractor - Performs SPEF extraction
+	- `FastRoute` - Performs global routing to generate a guide file for the detailed router
+	- `CU-GR` - Another option for performing global routing.
+	- `TritonRoute` - Performs detailed routing
+	- `SPEF-Extractor` - Performs SPEF extraction
 6. GDSII Generation
-	- Magic - Streams out the final GDSII layout file from the routed def
-	- Klayout - Streams out the final GDSII layout file from the routed def as a back-up
+	- `Magic` - Streams out the final GDSII layout file from the routed def
+	- `Klayout` - Streams out the final GDSII layout file from the routed def as a back-up
 7. Checks
-	- Magic - Performs DRC Checks & Antenna Checks
-	- Klayout - Performs DRC Checks
-	- Netgen - Performs LVS Checks
-	- CVC - Performs Circuit Validity Checks
+	- `Magic` - Performs DRC Checks & Antenna Checks
+	- `Klayout` - Performs DRC Checks
+	- `Netgen` - Performs LVS Checks
+	- `CVC` - Performs Circuit Validity Checks
 
 
 
@@ -127,6 +127,19 @@ To run openlane in interactive mode
 `./flow.tcl -interactive`
 
 ![openlane_interactive](https://user-images.githubusercontent.com/80625515/130196432-7e20d103-ce86-4a9c-8a10-757f3bf26e0c.png)
+
+## Pre-layout
+
+### Simulation
+
+  Terminal snap (To perform pre-layout simulation)
+  
+  ![pre_layout_sim_ter](https://user-images.githubusercontent.com/80625515/130185638-d927ef90-81d7-4642-b03f-10dfdc7c3ce1.png)
+
+  GTKWave output waveform
+  
+ ![pre_layout_sim](https://user-images.githubusercontent.com/80625515/130185662-662b9542-c5c1-4584-9d7f-da6d140f4aad.png)
+
 
 ### Synthesis
 
@@ -201,18 +214,6 @@ Synthesis reports
 
 ![synthesis](https://user-images.githubusercontent.com/80625515/130226013-809dac5c-563e-46e7-85b4-c83feb46587c.png)
 
-
-## Pre-layout
-
-### Simulation
-
-  Terminal snap (To perform pre-layout simulation)
-  
-  ![pre_layout_sim_ter](https://user-images.githubusercontent.com/80625515/130185638-d927ef90-81d7-4642-b03f-10dfdc7c3ce1.png)
-
-  GTKWave output waveform
-  
- ![pre_layout_sim](https://user-images.githubusercontent.com/80625515/130185662-662b9542-c5c1-4584-9d7f-da6d140f4aad.png)
 
 
 ### Floorplanning 
@@ -616,7 +617,7 @@ dvsd_pe
 - Ahmed Ghazy and Mohamed Shalan, "OpenLane: The Open-Source Digital ASIC Implementation Flow", Article No.21, Workshop on Open-Source EDA Technology (WOSET), 2020. [Paper](https://github.com/woset-workshop/woset-workshop.github.io/blob/master/PDFs/2020/a21.pdf)
 
 
-## Contacts
+## Contributors
 
 - [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
 - [Mohammad Khalique Khan](https://github.com/Khalique13), Bachelor of Technology in Electronics & Communication Engineering, Aliah University
