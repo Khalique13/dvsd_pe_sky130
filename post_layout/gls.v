@@ -1,5 +1,4 @@
 `include "dvsd_pe.synthesis.v"
-`include "dvsd_pe.v"
 `timescale 1ns / 10ps
 module test_dvsd_pe;
 
