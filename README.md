@@ -498,7 +498,7 @@ Terminal snap (To perform post-layout simulation)
 
 GTKWave output waveform
 
-![post-sim](https://user-images.githubusercontent.com/80625515/130287637-6c7f7772-f482-4c6d-b292-0dd1de9e6c3f.png)
+
 
 
 ## Steps to reproduce and explore the design
@@ -548,7 +548,7 @@ magic dvsd_pe.mag
 
 ```
 cd post_layout/
-iverilog -o gls gls.v primitives.v sky130_fd_sc_hd.v
+iverilog -o gls -DFUNCTIONAL -DUNIT_DELAY=#1 gls.v primitives.v sky130_fd_sc_hd.v
 ./gls
 gtkwave gls.vcd
 ```
