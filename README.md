@@ -23,7 +23,9 @@
 - [Key points to Remember](#key-points-to-remember)
 - [Area of improvement](#area-of-improvement)
 - [References](#references)
-- [Contributors](#contributors)
+- [Acknowledgement](#acknowledgement)
+- [Author](#author)
+
 
 
 ### Design Overview
@@ -138,7 +140,7 @@ To run openlane in interactive mode
 
   GTKWave output waveform
   
- ![pre_layout_sim](https://user-images.githubusercontent.com/80625515/130185662-662b9542-c5c1-4584-9d7f-da6d140f4aad.png)
+ ![pre_layout_sim](https://user-images.githubusercontent.com/80625515/130658528-78afca9c-b8ca-4344-91aa-acdd8d0521b3.png)
 
 
 ### Synthesis
@@ -498,7 +500,7 @@ Terminal snap (To perform post-layout simulation)
 
 GTKWave output waveform
 
-
+![postsynthwave](https://user-images.githubusercontent.com/80625515/130658574-daab2ac0-4300-4bf3-afec-a1a90778d29b.png)
 
 
 ## Steps to reproduce and explore the design
@@ -607,7 +609,6 @@ dvsd_pe
 ## Area of improvement
 
 - Improvement in the design and integration of Power pins.
-- Post layout simulation bugs to be fixed in sky130 nm pdks.
 - To perform spice simulation of the final GDS layout.
 
 ## References
@@ -616,9 +617,11 @@ dvsd_pe
 - [The OpenROAD Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 - Ahmed Ghazy and Mohamed Shalan, "OpenLane: The Open-Source Digital ASIC Implementation Flow", Article No.21, Workshop on Open-Source EDA Technology (WOSET), 2020. [Paper](https://github.com/woset-workshop/woset-workshop.github.io/blob/master/PDFs/2020/a21.pdf)
 
-
-## Contributors
+## Acknowledgement
 
 - [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
+
+## Author
+
 - [Mohammad Khalique Khan](https://github.com/Khalique13), Bachelor of Technology in Electronics & Communication Engineering, Aliah University
 
