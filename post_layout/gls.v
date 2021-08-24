@@ -7,8 +7,8 @@ module test_dvsd_pe;
  
 	wire [2:0] out;
 	wire eno, gs;
-dvsd_pe_synth uut (.in(in), .en(en), .out(out), .eno(eno), .gs(gs) );
-dvsd_pe uut1 (.in(in), .en(en), .out(out), .eno(eno), .gs(gs) );
+	
+dvsd_pe uut (.in(in), .en(en), .out(out), .eno(eno), .gs(gs) );
 
 initial begin
 	$dumpfile("gls.vcd");	
