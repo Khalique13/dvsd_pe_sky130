@@ -41,7 +41,7 @@
 
 Yosys synthesis
 
-![yosys_dot](https://user-images.githubusercontent.com/80625515/130267839-02a599bd-cc58-40b6-b009-fddc16b97eda.png)
+![synthesis_dot](https://user-images.githubusercontent.com/80625515/131134525-f122faa7-5f6e-4ab6-bb1e-593899d306a2.png)
 
 
 
