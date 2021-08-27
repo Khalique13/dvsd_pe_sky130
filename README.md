@@ -136,7 +136,8 @@ To run openlane in interactive mode
 
   Terminal snap (To perform pre-layout simulation)
   
-  ![pre_layout_sim_ter](https://user-images.githubusercontent.com/80625515/130185638-d927ef90-81d7-4642-b03f-10dfdc7c3ce1.png)
+  ![prelayterm](https://user-images.githubusercontent.com/80625515/131089636-fca42cd9-0f61-4710-8eb9-5d3847faac69.png)
+
 
   GTKWave output waveform
   
@@ -496,7 +497,8 @@ VPWR                                       |VPWR
 
 Terminal snap (To perform post-layout simulation)
 
-![post_lay_sim_term](https://user-images.githubusercontent.com/80625515/130189588-be201db3-9f21-4d12-9055-9806750a0675.png)
+![postlayterm](https://user-images.githubusercontent.com/80625515/131089729-e1d611c8-0685-495f-90ab-8409a3f8a9a7.png)
+
 
 GTKWave output waveform
 
