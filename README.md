@@ -213,9 +213,9 @@ Synthesis reports
 
 - Yosys synthesis strategies
 
-![synth1](https://user-images.githubusercontent.com/80625515/130226001-21fe0cbe-5a63-4444-9844-08fc22b9c19d.png)
+![synhesisstrategies](https://user-images.githubusercontent.com/80625515/131131994-32af7075-e086-429a-a7a6-276276c082fd.png)
 
-![synthesis](https://user-images.githubusercontent.com/80625515/130226013-809dac5c-563e-46e7-85b4-c83feb46587c.png)
+![exploration-2](https://user-images.githubusercontent.com/80625515/131132250-3c9a5f4f-49c8-4453-b0b8-89275c041bb1.png)
 
 
 
