@@ -1,4 +1,4 @@
-# 8 bit Priority Encoder (dvsd_pe) RTL2GDS flow using SKY130 pdks
+# 8 bit Priority Encoder (dvsd_pe_sky130) RTL2GDS flow using SKY130 pdks
 *The purpose of this project is to produce clean GDS (Graphic Design System) Final Layout with all details that is used to print photomasks used in fabrication of a behavioral RTL (Register-Transfer Level) of an 8 bit Priorty Encoder, using SkyWater 130 nm PDK (Process Design Kit)*
 
 # Table of Contents
