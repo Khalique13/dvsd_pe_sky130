@@ -1,5 +1,5 @@
 
-https://img.shields.io/github/license/Khalique13/dvsd_pe_sky130?color=red
+![license](https://img.shields.io/github/license/Khalique13/dvsd_pe_sky130?color=red)
 
 
 
