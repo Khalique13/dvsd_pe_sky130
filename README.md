@@ -42,6 +42,8 @@
 
 ![Slide4](https://user-images.githubusercontent.com/80625515/130180121-a4e5d529-bb6d-4ed3-a265-aad5030f82f7.PNG)
 
+For detailed IP specs, click [here](https://github.com/Khalique13/dvsd_pe_sky130/blob/main/8%20bit%20Priority%20Encoder%20(dvsdpe_1v8)%20spec.pdf) 
+
 ### Verilog behavioral design
 
 Yosys synthesis
