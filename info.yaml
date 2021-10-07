@@ -1,0 +1,19 @@
+---
+project:
+  description: "Caravel Priority Encoder using SkyWater 130nm PDKs - dvsd_pe_sky130"
+  foundry: "SkyWater"
+  git_url: "https://github.com/Khalique13/caravel_dvsd_pe_sky130.git"
+  organization: "VSD Corp. Pvt. Ltd."
+  organization_url: "https://www.vlsisystemdesign.com/"
+  owner: "Mohammad Khalique Khan"
+  process: "SKY130"
+  project_name: "Caravel Priority Encoder"
+  project_id: "00000000"
+  tags:
+    - "Open MPW"
+    - "OpenLane"
+  category: "Encoder"
+  top_level_netlist: "caravel/verilog/gl/caravel.v"
+  user_level_netlist: "verilog/gl/user_project_wrapper.v"
+  version: "1.00"
+  cover_image: "docs/source/_static/caravel_priority_encoder.png"
