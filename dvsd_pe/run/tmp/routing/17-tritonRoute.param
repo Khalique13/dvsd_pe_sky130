@@ -1,7 +1,0 @@
-guide:/openLANE_flow/designs/dvsd_pe/runs/run3/tmp/routing/14-fastroute.guide
-outputguide:/openLANE_flow/designs/dvsd_pe/runs/run3/tmp/routing/17-tritonRoute.guide
-outputDRC:/openLANE_flow/designs/dvsd_pe/runs/run3/reports/routing/17-tritonRoute.drc
-outputMaze:/openLANE_flow/designs/dvsd_pe/runs/run3/tmp/routing/17-tritonRoute_maze.log
-verbose:1
-drouteEndIterNum:64
-OR_SEED:42

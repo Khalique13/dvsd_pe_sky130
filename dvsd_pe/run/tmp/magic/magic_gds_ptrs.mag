@@ -1,6 +1,0 @@
-<< properties >>
-string FIXED_BBOX 0 0 6833 10977
-string GDS_FILE /openLANE_flow/designs/dvsd_pe/runs/run3/results/magic/dvsd_pe.gds
-string GDS_END 268582
-string GDS_START 135290
-<< end >>
