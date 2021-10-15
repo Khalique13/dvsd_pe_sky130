@@ -42,7 +42,6 @@
 
 ![Slide4](https://user-images.githubusercontent.com/80625515/130180121-a4e5d529-bb6d-4ed3-a265-aad5030f82f7.PNG)
 
-For detailed IP specs, click [here]
 
 ### Verilog behavioral design
 
@@ -481,7 +480,7 @@ VPWR                                       |VPWR
 
 
 - Klayout XOR check
-- 
+
 ![klayout-xor](https://user-images.githubusercontent.com/80625515/137545345-2aa5b2b7-4dc0-470f-bce8-217eb0e6a284.png)
 
 
@@ -613,10 +612,10 @@ dvsd_pe
 ## Acknowledgement
 
 [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
-Contact: kunalpghosh@gmail.com
+- Contact: kunalpghosh@gmail.com
 
 ## Author
 
 [Mohammad Khalique Khan](https://github.com/Khalique13)
-Contact: gjkhalique@gmail.com 
+- Contact: gjkhalique@gmail.com 
 
