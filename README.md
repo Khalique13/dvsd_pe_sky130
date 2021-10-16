@@ -8,6 +8,7 @@
 
 # Table of Contents
 
+- [Introduction](#introduction)
 - [Design Overview](#design-overview)
 - [IP specs Provided](#ip-specs-provided)
 - [Verilog behavioral design](#verilog-behavioral-design)
@@ -31,6 +32,18 @@
 - [Acknowledgement](#acknowledgement)
 - [Author](#author)
 
+
+### Introduction
+
+A Priority encoder is a combinational circuit which converts multiple bit-input
+signal to a encoded output signal in such a way that the output signal reassembles
+complete information which is fed at the input of the encoder. The encoder
+consists of ‘2n’ bits of input lines and ‘n’ bits output lines. The circuit of an
+encoder is based on the operation of Boolean expressions.
+
+8-bit to 3-bit priority encoder is an encoder that consists of 8 input lines and 3
+output lines. It can also be called an Octal to a binary encoder. Each input line
+has a base value of 8 (octal) and each output has a base value of 2 (binary).
 
 
 ### Design Overview
