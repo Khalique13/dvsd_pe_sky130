@@ -511,7 +511,7 @@ $ git clone https://github.com/Khalique13/dvsd_pe_sky130.git
 - To explore Pre-layout simulation
 
 ```
-$ cd pre_layout/
+$ cd pre_layout_simulaion/
 $ gtkwave dvsd_pe.vcd
 ```
 
@@ -519,32 +519,32 @@ $ gtkwave dvsd_pe.vcd
 
 ```
 $ cd floorplan/
-$ magic lef read merged.lef def read dvsd_pe.floorplan.def &
+$ magic -T sky130A.tech lef read merged.lef def read dvsd_pe.floorplan.def &
 ```
 
 - To explore placement
 
 ```
 $ cd placement/ 
-$ magic lef read merged.lef def read dvsd_pe.placement.def &
+$ magic -T sky130A.tech lef read merged.lef def read dvsd_pe.placement.def &
 ```
 
 - To explore final layout
 
 ```
 # to view Magic layout
-$ cd layout_magic/
+$ cd layout-magic/
 $ magic dvsd_pe.mag
 
 # to view GDS view using Klayout
-$ cd layout_klayout/
+$ cd layout-klayout/
 $ klayout dvsd_pe.gds 
 ```
 
 - To explore Post-layout (Gate Level Simulation)
 
 ```
-$ cd post_layout/
+$ cd post_layout_simulation/
 $ gtkwave gls.vcd
 ```
 
@@ -601,7 +601,7 @@ dvsd_pe
 
 ## Area of improvement
 
-- Improvement in the design and integration of Power pins.
+- Improvement in the design with more complex design and parameters.
 
 ## References
 
